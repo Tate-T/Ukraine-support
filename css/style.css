@@ -12,3 +12,23 @@
 .header-link {
     color: var(--text-color);
 }
+
+.hero-title {
+    color: var(--text-color)
+}
+.hero {
+    background: rgba(155, 155, 155, 0.27);
+box-shadow: -1px 1px 8px -3px rgba(0, 0, 0, 0.25) inset;
+backdrop-filter: blur(4.5px);
+}
+
+.hero-subtitle {
+    color:var(--text-color)
+}
+.hero-text {
+    color:var(--text-color)
+}
+.hero-button {
+    color: var(--secondaru-text);
+    background-color: var(--accent-color);
+}
