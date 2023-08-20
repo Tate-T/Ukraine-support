@@ -32,3 +32,15 @@ backdrop-filter: blur(4.5px);
     color: var(--secondaru-text);
     background-color: var(--accent-color);
 }
+.about {
+    background-color: var(--background-color);
+}
+.about-title {
+    color: var(--accent-color);
+}
+.about-text {
+    color: var(--text-color);
+}
+.about-name {
+    color: var(--text-color);
+}
