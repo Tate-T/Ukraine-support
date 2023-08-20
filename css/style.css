@@ -4,3 +4,11 @@
     --background-color: #050404;
     --secondaru-text: #000000;
 }
+
+.header{
+    background-color: var(--background-color) ;
+}
+
+.header-link {
+    color: var(--text-color);
+}
