@@ -58,7 +58,7 @@ body {
   font-weight: 400;
 }
 .hero-link {
-    color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
   font-size: 24px;
   font-style: normal;
   font-weight: 100;
@@ -75,4 +75,30 @@ body {
 }
 .about-name {
   color: var(--text-color);
+}
+
+.about-title {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.about-text {
+  color: var(--text-color);
+  text-align: justify;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.about-name {
+  color: var(--text-color);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.about-subtitle {
+  color: var(--accent-color);
+  font-size: 24px;
+  font-weight: 700;
 }
