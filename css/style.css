@@ -1,46 +1,78 @@
 :root {
-    --accent-color: #FFD76E;
-    --text-color: #FFFFFF;
-    --background-color: #050404;
-    --secondaru-text: #000000;
+  --accent-color: #ffd76e;
+  --text-color: #ffffff;
+  --background-color: #050404;
+  --secondaru-text: #000000;
 }
 
-.header{
-    background-color: var(--background-color) ;
+body {
+  font-family: Inter;
+}
+
+.header {
+  background-color: var(--background-color);
 }
 
 .header-link {
-    color: var(--text-color);
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.header-link:hover {
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .hero-title {
-    color: var(--text-color)
+  color: var(--text-color);
+  font-size: 128px;
+  font-weight: 400;
 }
+
 .hero {
-    background: rgba(155, 155, 155, 0.27);
-box-shadow: -1px 1px 8px -3px rgba(0, 0, 0, 0.25) inset;
-backdrop-filter: blur(4.5px);
+  background: url(../imges/hero-background.jpg);
+  box-shadow: -1px 1px 8px -3px rgba(0, 0, 0, 0.25) inset;
+  backdrop-filter: blur(4.5px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-subtitle {
-    color:var(--text-color)
+  color: var(--text-color);
+  font-size: 64px;
+  font-weight: 400;
 }
 .hero-text {
-    color:var(--text-color)
+  max-width: 460px;
+  color: var(--text-color);
+  text-align: justify;
+  font-size: 24px;
+  font-weight: 400;
 }
 .hero-button {
-    color: var(--secondaru-text);
-    background-color: var(--accent-color);
+  color: var(--secondaru-text);
+  background-color: var(--accent-color);
+  font-size: 24px;
+  font-weight: 400;
+}
+.hero-link {
+    color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
 }
 .about {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
 }
 .about-title {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .about-text {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 .about-name {
-    color: var(--text-color);
+  color: var(--text-color);
 }
