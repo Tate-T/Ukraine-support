@@ -9,6 +9,14 @@ body {
   font-family: Inter;
 }
 
+.container {
+  width: 1183px;
+  padding: 0 15px ;
+  outline: solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
   background-color: var(--background-color);
 }
