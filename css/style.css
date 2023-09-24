@@ -127,3 +127,43 @@ body {
   font-size: 64px;
   font-weight: 400;
 }
+
+.lviv-description{
+  color:var(--text-color);
+  text-align: justify;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.lviv-btn{
+  color:var(--secondaru-text);
+font-size: 24px;
+font-weight: 400;
+border-radius: 10px;
+background:var(--accent-color);
+}
+
+.kharkiv-title{
+  color:var(--secondaru-text);
+font-size: 24px;
+font-weight: 700;
+}
+
+.kharkiv-text{
+  color:var(--secondaru-text);
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+}
+
+.kharkiv-support{
+  color:var(--accent-color);
+font-size: 64px;
+font-weight: 400;
+}
+
+.kharkiv-info{
+  color:var(--secondaru-text);
+font-size: 32px;
+font-weight: 400;
+}
