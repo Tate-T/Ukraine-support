@@ -246,3 +246,52 @@ body {
   font-size: 20px;
   font-weight: 400;
 }
+
+.mariupol {
+}
+.mariupol-title {
+  color: var(--secondaru-text);
+  font-size: 24px;
+  font-weight: 700;
+}
+.mariupol-text {
+  color: var(--secondaru-text);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mariupol-details {
+  color: var(--accent-color);
+  font-size: 64px;
+  font-weight: 400;
+}
+.mariupol-info {
+  border: var(--accent-color) solid 4px;
+  border-radius: 8px;
+}
+.mariupol-company {
+  color: var(--accent-color);
+  font-size: 20px;
+  font-weight: 300;
+}
+.mariupol-desc {
+  color: var(--secondaru-text);
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer {
+}
+.footer-title {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-link {
+}
+.footer-icon {
+}
