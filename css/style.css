@@ -11,7 +11,7 @@ body {
 
 .container {
   width: 1183px;
-  padding: 0 15px ;
+  padding: 0 15px;
   outline: solid red;
   margin-left: auto;
   margin-right: auto;
@@ -128,81 +128,121 @@ body {
   font-weight: 400;
 }
 
-.lviv-description{
-  color:var(--text-color);
+.lviv-description {
+  color: var(--text-color);
   text-align: justify;
   font-size: 24px;
   font-weight: 400;
 }
 
-.lviv-btn{
-  color:var(--secondaru-text);
-font-size: 24px;
-font-weight: 400;
-border-radius: 10px;
-background:var(--accent-color);
-}
-
-.kharkiv-title{
-  color:var(--secondaru-text);
-font-size: 24px;
-font-weight: 700;
-}
-
-.kharkiv-text{
-  color:var(--secondaru-text);
-text-align: center;
-font-size: 20px;
-font-weight: 400;
-}
-
-.kharkiv-support{
-  color:var(--accent-color);
-font-size: 64px;
-font-weight: 400;
-}
-
-.kharkiv-info{
-  color:var(--secondaru-text);
-font-size: 32px;
-font-weight: 400;
-}
-
-.kyiv-title{
+.lviv-btn {
   color: var(--secondaru-text);
-font-size: 24px;
-font-weight: 700;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 10px;
+  background: var(--accent-color);
 }
 
-.kyiv-text{
-  color:var(--secondaru-text);
-text-align: center;
-font-size: 20px;
-font-weight: 400;
+.kharkiv-title {
+  color: var(--secondaru-text);
+  font-size: 24px;
+  font-weight: 700;
 }
 
-.kyiv-games{
-  color:var(--accent-color);
-font-size: 64px;
-font-weight: 400;
+.kharkiv-text {
+  color: var(--secondaru-text);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
 }
-.kyiv-photo{
+
+.kharkiv-support {
+  color: var(--accent-color);
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.kharkiv-info {
+  color: var(--secondaru-text);
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.kyiv-title {
+  color: var(--secondaru-text);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.kyiv-text {
+  color: var(--secondaru-text);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.kyiv-games {
+  color: var(--accent-color);
+  font-size: 64px;
+  font-weight: 400;
+}
+.kyiv-photo {
   width: 300px;
   height: 300px;
 }
 
-.kyiv-desc{
-  color:var(--text-color);
-font-size: 24px;
-font-weight: 400;
+.kyiv-desc {
+  color: var(--text-color);
+  font-size: 24px;
+  font-weight: 400;
 }
 
-.kyiv-product{
-  color:var(--accent-color);
-font-size: 64px;
-font-weight: 400;
+.kyiv-product {
+  color: var(--accent-color);
+  font-size: 64px;
+  font-weight: 400;
 }
-.kyiv-img{
+.kyiv-img {
   width: 300px;
   height: 300px;
+}
+
+.kherson {
+}
+.kherson-title {
+  color: var(--secondaru-text);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.khreson-text {
+  color: var(--secondaru-text);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.khreson-achievement {
+  color: var(--accent-color);
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.khreson-list {
+}
+
+.khreson-item {
+}
+
+.khreson-article {
+}
+
+.khreson-photo {
+}
+
+.khreson-info {
+  color: var(--text-color);
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 400;
 }
