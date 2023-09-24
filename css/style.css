@@ -167,3 +167,42 @@ font-weight: 400;
 font-size: 32px;
 font-weight: 400;
 }
+
+.kyiv-title{
+  color: var(--secondaru-text);
+font-size: 24px;
+font-weight: 700;
+}
+
+.kyiv-text{
+  color:var(--secondaru-text);
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+}
+
+.kyiv-games{
+  color:var(--accent-color);
+font-size: 64px;
+font-weight: 400;
+}
+.kyiv-photo{
+  width: 300px;
+  height: 300px;
+}
+
+.kyiv-desc{
+  color:var(--text-color);
+font-size: 24px;
+font-weight: 400;
+}
+
+.kyiv-product{
+  color:var(--accent-color);
+font-size: 64px;
+font-weight: 400;
+}
+.kyiv-img{
+  width: 300px;
+  height: 300px;
+}
