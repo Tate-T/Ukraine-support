@@ -12,15 +12,21 @@ body {
 .container {
   width: 1183px;
   padding: 0 15px;
-  outline: solid red;
+  outline: dashed red;
   margin-left: auto;
   margin-right: auto;
 }
-
+/* header */
 .header {
   background-color: var(--background-color);
+  padding-top: 26px;
+  padding-bottom: 27px;
 }
-
+.header-list {
+  display: flex;
+  justify-content: end;
+  gap: 21px;
+}
 .header-link {
   color: var(--text-color);
   font-size: 16px;
