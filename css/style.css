@@ -5,6 +5,7 @@
   --secondaru-text: #000000;
 }
 
+
 body {
   font-family: Inter;
 }
@@ -42,6 +43,7 @@ body {
   color: var(--text-color);
   font-size: 128px;
   font-weight: 400;
+  margin-bottom: 6px;
 }
 
 .hero {
@@ -51,12 +53,16 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-top: 48px;
+  padding-bottom: 21px;
+
 }
 
 .hero-subtitle {
   color: var(--text-color);
   font-size: 64px;
   font-weight: 400;
+  margin-bottom: 30px;
 }
 .hero-text {
   max-width: 460px;
@@ -64,12 +70,17 @@ body {
   text-align: justify;
   font-size: 24px;
   font-weight: 400;
+  margin-bottom: 48px;
 }
 .hero-button {
   color: var(--secondaru-text);
   background-color: var(--accent-color);
   font-size: 24px;
   font-weight: 400;
+  margin-bottom: 84px;
+  display: block;
+  padding: 15px 31px 16px;
+  border-radius: 10px;
 }
 .hero-link {
   color: rgba(255, 255, 255, 1);
@@ -77,6 +88,8 @@ body {
   font-style: normal;
   font-weight: 100;
   line-height: normal;
+  display: block;
+  text-align: center;
 }
 .about {
   background-color: var(--background-color);
