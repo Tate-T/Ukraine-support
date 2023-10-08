@@ -8,7 +8,7 @@
 
 body {
   font-family: Inter;
-  /*background-color: var(--background-color);*/
+  background-color: var(--background-color);
 }
 
 .container {
@@ -235,6 +235,7 @@ body {
 .kharkiv{
   outline: solid green;
   padding-top: 75px;
+  padding-bottom: 46px;
 }
 
 .kharkiv-title {
@@ -262,6 +263,14 @@ body {
   color: var(--accent-color);
   font-size: 64px;
   font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.kharkiv-list{
+  display: flex;
+  justify-content: center;
+  gap: 222px;
   
 }
 
