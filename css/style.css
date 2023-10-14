@@ -282,6 +282,7 @@ body {
 
 .kyiv{
   padding-top: 75px; 
+  padding-bottom: 180px;
 }
 
 .kyiv-title {
@@ -338,9 +339,15 @@ body {
   margin-bottom: 23px;
 }
 
+.kyiv-good {
+  outline: solid green;
+  
+}
+
 .kyiv-goods{
   display: flex;
   justify-content: center;
+  gap: 65px;
 }
 
 .kyiv-img {
@@ -349,11 +356,14 @@ body {
 }
 
 .kherson {
+  padding-top: 75px;
 }
+
 .kherson-title {
   color: var(--secondaru-text);
   font-size: 24px;
   font-weight: 700;
+  margin-bottom: 25px;
 }
 
 .khreson-text {
