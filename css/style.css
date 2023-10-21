@@ -5,10 +5,9 @@
   --secondaru-text: #000000;
 }
 
-
 body {
   font-family: Inter;
-  /* background-color: var(--background-color); */
+  background-color: var(--background-color);
 }
 
 .container {
@@ -55,7 +54,6 @@ body {
   background-size: cover;
   padding-top: 48px;
   padding-bottom: 21px;
-
 }
 
 .hero-subtitle {
@@ -112,7 +110,6 @@ body {
   font-weight: 400;
   display: flex;
   flex-direction: column;
-
 }
 
 .about-text {
@@ -203,7 +200,6 @@ body {
   font-size: 64px;
   font-weight: 400;
   margin-bottom: 46px;
-
 }
 
 .lviv-description {
@@ -227,12 +223,12 @@ body {
   padding: 15px 31px 16px;
 }
 
-.lviv-foto{
+.lviv-foto {
   width: 396px;
   height: 460px;
 }
 
-.kharkiv{
+.kharkiv {
   outline: solid green;
   padding-top: 75px;
   padding-bottom: 46px;
@@ -267,11 +263,10 @@ body {
   margin-bottom: 40px;
 }
 
-.kharkiv-list{
+.kharkiv-list {
   display: flex;
   justify-content: center;
   gap: 222px;
-  
 }
 
 .kharkiv-info {
@@ -280,8 +275,8 @@ body {
   font-weight: 400;
 }
 
-.kyiv{
-  padding-top: 75px; 
+.kyiv {
+  padding-top: 75px;
   padding-bottom: 180px;
 }
 
@@ -290,7 +285,6 @@ body {
   color: var(--secondaru-text);
   font-size: 24px;
   font-weight: 700;
-
 }
 
 .kyiv-text {
@@ -313,7 +307,7 @@ body {
   margin-bottom: 30px;
 }
 
-.kyiv-list{
+.kyiv-list {
   display: flex;
   gap: 70px;
   justify-content: center;
@@ -341,10 +335,9 @@ body {
 
 .kyiv-good {
   outline: solid green;
-  
 }
 
-.kyiv-goods{
+.kyiv-goods {
   display: flex;
   justify-content: center;
   gap: 65px;
@@ -364,6 +357,7 @@ body {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .khreson-text {
@@ -371,24 +365,47 @@ body {
   text-align: center;
   font-size: 20px;
   font-weight: 400;
+  width: 351px;
+  margin: 0 auto;
 }
 
 .khreson-achievement {
   color: var(--accent-color);
   font-size: 64px;
   font-weight: 400;
+  margin-top: 133px;
+  text-align: center;
+  margin-bottom: 24px;
 }
 
 .khreson-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 630px;
+  align-items: center;
+  justify-content: center;
+  max-width: 1018px;
+  gap: 40px;
+  margin: 0 auto;
 }
 
 .khreson-item {
+  width: 312px;
+  outline: dashed red;
+  line-height: 0;
 }
 
 .khreson-article {
 }
 
 .khreson-photo {
+  margin-bottom: 40px;
+}
+
+.khreson-photo:last-child,
+.khreson-photo:only-child {
+  margin: 0;
 }
 
 .khreson-info {
@@ -396,6 +413,26 @@ body {
   text-align: justify;
   font-size: 20px;
   font-weight: 400;
+  border-radius: 8px;
+  border: 2px solid var(--accent-color);
+  padding: 0 11px;
+  line-height: normal;
+}
+
+.khreson-item:first-child .khreson-info {
+  padding-bottom: 21px;
+  padding-top: 21px;
+}
+
+.khreson-item:last-child .khreson-info {
+  padding-bottom: 124px;
+  padding-top: 68px;
+}
+
+.khreson-info:first-child {
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+  padding-top: 64px;
 }
 
 .mariupol {
