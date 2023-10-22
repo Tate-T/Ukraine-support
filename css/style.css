@@ -492,6 +492,8 @@ body {
 }
 
 .footer {
+  padding-top: 29px;
+
 }
 .footer-title {
   color: var(--text-color);
@@ -499,7 +501,14 @@ body {
   font-size: 48px;
   font-weight: 500;
 }
+.footer-container {
+  display: flex;
+  align-items: center;
+  gap: 267px;
+  justify-content: flex-end;
+}
 .footer-list {
+
 }
 .footer-item {
 }
