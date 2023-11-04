@@ -46,7 +46,7 @@ body {
 }
 
 .hero {
-  background: url(../imges/hero-background.jpg);
+  background-image: url(../images/herobg.png);
   box-shadow: -1px 1px 8px -3px rgba(0, 0, 0, 0.25) inset;
   backdrop-filter: blur(4.5px);
   background-repeat: no-repeat;
@@ -163,6 +163,7 @@ body {
 .lviv {
   padding-top: 72px;
   padding-bottom: 92px;
+  
 }
 
 .lviv-title {
