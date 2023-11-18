@@ -240,34 +240,11 @@ body {
   height: 460px;
 }
 
-.kharkiv {
-  outline: solid green;
-  padding-top: 75px;
-  padding-bottom: 46px;
+.support {
+  padding: 40px 0 46px;
 }
 
-.kharkiv-title {
-  color: var(--secondaru-text);
-  font-size: 24px;
-  font-weight: 700;
-  text-align: center;
-  margin: 25.3px;
-}
-
-.kharkiv-text {
-  color: var(--secondaru-text);
-  text-align: center;
-  font-size: 20px;
-  font-weight: 400;
-  text-align: center;
-  max-width: 351px;
-  outline: solid violet;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 79px;
-}
-
-.kharkiv-support {
+.support-title {
   color: var(--accent-color);
   font-size: 64px;
   font-weight: 400;
@@ -275,16 +252,23 @@ body {
   margin-bottom: 40px;
 }
 
-.kharkiv-list {
+.support-list {
   display: flex;
   justify-content: center;
   gap: 222px;
 }
 
-.kharkiv-info {
+.support-info {
   color: var(--secondaru-text);
   font-size: 32px;
   font-weight: 400;
+  padding: 88px 40px;
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.support-info:nth-child(2) {
+  padding: 88px 20px;
 }
 
 .kyiv {
