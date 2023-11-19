@@ -267,8 +267,8 @@ body {
   background: rgba(255, 255, 255, 0.9);
 }
 
-.support-info:nth-child(2) {
-  padding: 88px 20px;
+.support-item:nth-child(2) .support-info {
+  padding: 88px 20.5px;
 }
 
 .kyiv {
@@ -293,7 +293,13 @@ body {
   margin-right: auto;
   margin-top: 25px;
 }
-
+.games {
+  background-image: url(../images/games-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 180px;
+  padding-top: 43px;
+}
 .kyiv-games {
   color: var(--accent-color);
   font-size: 64px;
