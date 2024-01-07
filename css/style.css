@@ -23,11 +23,11 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-background-color: rgba(5, 4, 4, 0.5);
+background-image: linear-gradient(rgba(5, 4, 4, 0.5),rgba(234, 232, 232, 0.373));
 z-index: 1;
 width: 100%;
-backdrop-filter: blur(6px);
-
+backdrop-filter: blur(6.5px);
+box-shadow: 0px 4px 16px 10px rgba(234, 232, 232, 0.373) ;
 }
 .header-list {
   display: flex;
@@ -107,7 +107,16 @@ backdrop-filter: blur(6px);
 .about {
   padding-top: 40px;
   padding-bottom: 77px;
+  background-image:  url(../images/about-boxes.png);
+background-repeat: no-repeat;
 }
+
+.about .container {
+  background-image: url(../images/about-box.png), url(../images/about-box2.png);
+  background-repeat: no-repeat;
+  background-position: 396px 655px, 228px 360px ;
+}
+
 .about-title {
   color: var(--accent-color);
 }
@@ -315,12 +324,40 @@ backdrop-filter: blur(6px);
   padding-bottom: 180px;
   padding-top: 43px;
 }
+
+.games .container {
+  position: relative;
+}
+
+.games-arrow {
+  fill: none;
+  stroke: var(--accent-color);
+  position: absolute;
+  left: 0;
+  top: 241px;
+}
+
+.games-icon {
+  top: 985px;
+}
+
+.kyiv-goods + .games-icon {
+  right: 0;
+  left: auto;
+  transform: rotate(180deg);
+}
+
+.kyiv-list + .games-arrow {
+  transform: rotate(180deg);
+right: 0;
+left: auto;
+}
+
 .kyiv-games {
   color: var(--accent-color);
   font-size: 64px;
   font-weight: 400;
   text-align: center;
-  margin-top: 122px;
   margin-bottom: 30px;
 }
 
@@ -339,6 +376,8 @@ backdrop-filter: blur(6px);
   color: var(--text-color);
   font-size: 24px;
   font-weight: 400;
+  text-align: center;
+  margin-top: 23px;
 }
 
 .kyiv-product {
