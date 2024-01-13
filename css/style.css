@@ -575,15 +575,18 @@ justify-content: center;
 height: 470px;
 background-color: #FFF;
 border-radius: 10px;
+padding: 30px;
 }
 
 .modal-input {
   display: block;
 }
 .modal-title {
-  color: #000;
-font-family: Inter;
+  color: var(--secondaru-text);
 font-size: 32px;
 font-weight: 400;
-line-height: normal;
+line-height: 1.21;
+text-align: center;
+margin-bottom: 18px;
 }
+
