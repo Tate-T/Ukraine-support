@@ -292,10 +292,17 @@ body {
   padding: 88px 40px;
   border-radius: 32px;
   background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .support-item:nth-child(2) .support-info {
   padding: 88px 20.5px;
+}
+
+.support-art {
+  position: relative;
 }
 
 .kyiv {
@@ -642,4 +649,12 @@ body {
   background: var(--accent-color);
   margin: 0 auto;
   display: block;
+}
+
+.modal-title {
+  text-align: center;
+}
+
+.modal-title:nth-child(1) {
+  margin-bottom: 132px;
 }
