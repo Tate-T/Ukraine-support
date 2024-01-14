@@ -56,7 +56,9 @@
             волонтерів.. Цiлi фонду назбирати максимальну суму на допомогу ЗСУ
             за мінімальний строк.
           </p>
-          <button type="button" class="hero-button">Підтримати</button>
+          <button type="button" class="hero-button" data-modal-open>
+            Підтримати
+          </button>
           <a href="#details" class="hero-link">Get started</a>
           <svg class="hero-icon" width="10" height="4">
             <use href="./images/symbol-defs.svg#down-arrow"></use>
@@ -191,8 +193,9 @@
       <section class="games">
         <div class="container">
           <h2 class="kyiv-games">Ігри</h2>
-          <svg class="games-arrow" width="30.484px" 
-          height="29.432px" ><use href="./images/symbol-defs.svg#arrow"></use></svg>
+          <svg class="games-arrow" width="30.484px" height="29.432px">
+            <use href="./images/symbol-defs.svg#arrow"></use>
+          </svg>
           <ul class="kyiv-list">
             <li class="kyiv-item">
               <article class="kyiv-article">
@@ -225,11 +228,17 @@
               </article>
             </li>
           </ul>
-          <svg class="games-arrow" width="30.484px" 
-          height="29.432px" ><use href="./images/symbol-defs.svg#arrow"></use></svg>
+          <svg class="games-arrow" width="30.484px" height="29.432px">
+            <use href="./images/symbol-defs.svg#arrow"></use>
+          </svg>
           <h2 class="kyiv-product">Купи товар і допоможи ЗСУ</h2>
-          <svg class="games-arrow games-icon" width="30.484px" 
-          height="29.432px" ><use href="./images/symbol-defs.svg#arrow"></use></svg>
+          <svg
+            class="games-arrow games-icon"
+            width="30.484px"
+            height="29.432px"
+          >
+            <use href="./images/symbol-defs.svg#arrow"></use>
+          </svg>
           <ul class="kyiv-goods">
             <li class="kyiv-good">
               <img
@@ -249,8 +258,13 @@
               <img class="kyiv-img" src="./images/picture.png" alt="наклейка" />
             </li>
           </ul>
-          <svg class="games-arrow games-icon" width="30.484px" 
-          height="29.432px" ><use href="./images/symbol-defs.svg#arrow"></use></svg>
+          <svg
+            class="games-arrow games-icon"
+            width="30.484px"
+            height="29.432px"
+          >
+            <use href="./images/symbol-defs.svg#arrow"></use>
+          </svg>
         </div>
       </section>
       <section class="city" id="news">
@@ -385,35 +399,33 @@
         </ul>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-      <form action="">
+        <form action="">
+          <button type="button" class="modal-close" data-modal-close>
+            <svg class="modal-icon" width="14" height="14">
+              <use href="./images/symbol-defs.svg#cross"></use>
+            </svg>
+          </button>
           <h3 class="modal-title">Підтримай українську армію сьогодні!</h3>
           <ul class="modal-list">
             <li class="modal-item">
-              <label for="#name" class="modal-name">
-                Ім’я
-              </label>
-              <input type="text" id="name" class="modal-input">
+              <label for="#name" class="modal-name"> Ім’я </label>
+              <input type="text" id="name" class="modal-input" required />
             </li>
             <li class="modal-item">
-              <label for="#email" class="modal-name"> 
-                Email
-              </label>
-              <input type="email" id="email" class="modal-input">
+              <label for="#email" class="modal-name"> Email </label>
+              <input type="email" id="email" class="modal-input" required />
             </li>
             <li class="modal-item">
-              <label for="#adress" class="modal-name">
-                Адресс
-              </label>
-              <input type="text" id="adress" class="modal-input">
+              <label for="#adress" class="modal-name"> Адресс </label>
+              <input type="text" id="adress" class="modal-input" required />
             </li>
           </ul>
           <button type="submit" class="modal-btn">Підтримати</button>
-
-
         </form>
       </div>
     </div>
+    <script src="./js/modal.js" type="module"></script>
   </body>
 </html>

@@ -23,11 +23,14 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-background-image: linear-gradient(rgba(5, 4, 4, 0.5),rgba(234, 232, 232, 0.373));
-z-index: 1;
-width: 100%;
-backdrop-filter: blur(6.5px);
-box-shadow: 0px 4px 16px 10px rgba(234, 232, 232, 0.373) ;
+  background-image: linear-gradient(
+    rgba(5, 4, 4, 0.5),
+    rgba(234, 232, 232, 0.373)
+  );
+  z-index: 1;
+  width: 100%;
+  backdrop-filter: blur(6.5px);
+  box-shadow: 0px 4px 16px 10px rgba(234, 232, 232, 0.373);
 }
 .header-list {
   display: flex;
@@ -107,14 +110,14 @@ box-shadow: 0px 4px 16px 10px rgba(234, 232, 232, 0.373) ;
 .about {
   padding-top: 40px;
   padding-bottom: 77px;
-  background-image:  url(../images/about-boxes.png);
-background-repeat: no-repeat;
+  background-image: url(../images/about-boxes.png);
+  background-repeat: no-repeat;
 }
 
 .about .container {
   background-image: url(../images/about-box.png), url(../images/about-box2.png);
   background-repeat: no-repeat;
-  background-position: 396px 655px, 228px 360px ;
+  background-position: 396px 655px, 228px 360px;
 }
 
 .about-title {
@@ -349,8 +352,8 @@ background-repeat: no-repeat;
 
 .kyiv-list + .games-arrow {
   transform: rotate(180deg);
-right: 0;
-left: auto;
+  right: 0;
+  left: auto;
 }
 
 .kyiv-games {
@@ -557,36 +560,86 @@ left: auto;
   fill: var(--accent-color);
 }
 
+.is-hidden {
+  /* display: none; */
+  opacity: 0;
+  pointer-events: none;
+}
+
 .backdrop {
   background-color: rgba(217, 217, 217, 0.57);
-width: 100%;
-height: 100%;
-position: fixed;
-top: 0;
-right: 0;
-z-index: 2;
-display: flex;
-align-items: center;
-justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal {
-  width: 700px;
-height: 470px;
-background-color: #FFF;
-border-radius: 10px;
-padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 46px 32px 48px;
+  position: relative;
+}
+
+.modal-icon {
+  fill: #424242;
+  position: absolute;
+  top: 16px;
+  right: 16px;
 }
 
 .modal-input {
   display: block;
+  padding-left: 15px;
 }
 .modal-title {
   color: var(--secondaru-text);
-font-size: 32px;
-font-weight: 400;
-line-height: 1.21;
-text-align: center;
-margin-bottom: 18px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.21;
+  text-align: center;
+  margin-bottom: 18px;
 }
 
+.modal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.modal-name {
+  color: var(--secondaru-text);
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.21;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.modal-input {
+  border-radius: 10px;
+  background: rgba(140, 186, 255, 0.27);
+  border: none;
+  width: 600px;
+  height: 50px;
+}
+
+.modal-btn {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 15px 31px;
+  border-radius: 10px;
+  background: var(--accent-color);
+  margin: 0 auto;
+  display: block;
+}
