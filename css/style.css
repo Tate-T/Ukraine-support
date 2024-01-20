@@ -5,6 +5,10 @@
   --secondaru-text: #000000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Inter;
   background-color: var(--background-color);
@@ -657,4 +661,24 @@ body {
 
 .modal-title:nth-child(1) {
   margin-bottom: 132px;
+}
+
+.scroll-top {
+  background-color: var(--accent-color);
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  box-shadow: 0 0 10px 5px var(--accent-color);
+  border: 3px solid var(--text-color);
+}
+
+.scroll-icon {
+  stroke: var(--text-color);
+  transform: rotate(180deg);
 }
