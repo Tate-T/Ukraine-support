@@ -66,10 +66,14 @@ body {
   flex-direction: column;
   gap: 8px;
   border-radius: 4px;
+  transition-property: opacity;
+  transition-duration: 350ms;
 }
 
 .header-item:first-child:hover .header-submenu {
   opacity: 1;
+  transition-property: opacity;
+  transition-duration: 350ms;
 }
 
 .header-subitem {
@@ -77,6 +81,8 @@ body {
 
 .header-sublink {
   color: var(--text-color);
+  transition-property: color;
+  transition-duration: 250ms ;
 }
 
 .header-sublink:hover {
@@ -95,6 +101,8 @@ body {
   /* margin-top: 26px; */
   display: block;
   opacity: 0;
+  transition-property: opacity;
+  transition-duration: 350ms;
 }
 .header-link:hover {
   font-size: 16px;
@@ -146,6 +154,9 @@ body {
   display: block;
   padding: 15px 31px 16px;
   border-radius: 10px;
+  transition-property: box-shadow, color;
+  transition-duration: 450ms;
+
 }
 
 .hero-button:hover {
@@ -377,6 +388,8 @@ body {
   left: 0;
   border-radius: 32px;
   opacity: 0;
+  transition-property: opacity;
+  transition-duration: 350ms ;
 }
 
 .support-overlay:hover {
@@ -644,6 +657,8 @@ body {
   width: 64px;
   height: 67px;
   fill: var(--accent-color);
+  transition-property: fill;
+  transition-duration: 350ms;
 }
 
 .is-hidden {
@@ -728,6 +743,8 @@ body {
   background: var(--accent-color);
   margin: 0 auto;
   display: block;
+  transition-property: box-shadow, color;
+  transition-duration: 350ms;
 }
 
 .modal-btn:hover {
@@ -756,6 +773,8 @@ body {
   right: 50px;
 
   border: 3px solid var(--text-color);
+  transition-property: box-shadow;
+  transition-duration: 320ms;
 }
 
 .scroll-top:hover {
