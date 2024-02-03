@@ -665,6 +665,7 @@ body {
   /* display: none; */
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
 }
 
 .backdrop {
@@ -675,16 +676,27 @@ body {
   top: 0;
   right: 0;
   z-index: 2;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+
+   transition: opacity 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .modal {
   background-color: #fff;
   border-radius: 10px;
   padding: 30px 46px 32px 48px;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: visibility 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: translate(-50%, -50%) rotate(360deg);
+  transition: transform 1s cubic-bezier(.25,.31,.17,.89);
+}
+
+.is-hidden .modal {
+  transform: translate(0);
 }
 
 .modal-icon {
