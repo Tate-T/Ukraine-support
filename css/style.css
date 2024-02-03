@@ -82,7 +82,7 @@ body {
 .header-sublink {
   color: var(--text-color);
   transition-property: color;
-  transition-duration: 250ms ;
+  transition-duration: 250ms;
 }
 
 .header-sublink:hover {
@@ -156,7 +156,6 @@ body {
   border-radius: 10px;
   transition-property: box-shadow, color;
   transition-duration: 450ms;
-
 }
 
 .hero-button:hover {
@@ -389,7 +388,7 @@ body {
   border-radius: 32px;
   opacity: 0;
   transition-property: opacity;
-  transition-duration: 350ms ;
+  transition-duration: 350ms;
 }
 
 .support-overlay:hover {
@@ -680,7 +679,7 @@ body {
   align-items: center;
   justify-content: center; */
 
-   transition: opacity 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: opacity 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .modal {
@@ -690,9 +689,9 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transition: visibility 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: visibility 400ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    transform 1s cubic-bezier(0.25, 0.31, 0.17, 0.89);
   transform: translate(-50%, -50%) rotate(360deg);
-  transition: transform 1s cubic-bezier(.25,.31,.17,.89);
 }
 
 .is-hidden .modal {
@@ -770,6 +769,45 @@ body {
 
 .modal-title:nth-child(1) {
   margin-bottom: 132px;
+}
+
+.modal-people {
+  padding: 40px 37px 25px 40px;
+  background-color: var(--text-color);
+  border-radius: 10px;
+  width: 837px;
+  height: 577px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: visibility 400ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    transform 1s cubic-bezier(0.25, 0.31, 0.17, 0.89);
+  transform: translate(-50%, -50%) rotate(360deg);
+}
+
+.modal-container {
+  display: flex;
+  gap: 38px;
+}
+
+.modal-people-title {
+  font-weight: 400;
+  font-size: 32px;
+  color: #131c6a;
+  margin-bottom: 72px;
+}
+
+.mobal-text {
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--secondaru-text);
+}
+
+.modal-info-close {
+  fill: #424242;
+  position: absolute;
+  top: 16px;
+  right: 16px;
 }
 
 .scroll-top {

@@ -127,6 +127,7 @@
             <li class="about-item">
               <h2 class="about-subtitle">ЗАСНОВНИКИ ФОНДУ</h2>
               <img
+                data-info
                 class="about-photo"
                 src="./images/teodora.jpg"
                 alt="Теодора Левенко"
@@ -468,6 +469,30 @@
         </form>
       </div>
     </div>
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal-people">
+        <div class="modal-container">
+          <img src="./images/teodora.webp" alt="Дівчина" class="modal-photo" />
+          <div class="modal-text-container">
+            <h2 class="modal-people-title">Теодора Левченко</h2>
+            <p class="mobal-text">
+              Добрий день!Мене звати Теодора Левченко.Мені 23 роки.І я є
+              частиною чудової команди яка працює над фондом який допомагає
+              ЗСУ.Раніше я працювала у сфері фінансів.Тому зараз займаюсь
+              переказами на ЗСУ.
+            </p>
+            <svg
+              modal-info-close
+              class="modal-info-close"
+              width="14"
+              height="14"
+            >
+              <use href="./images/symbol-defs.svg#cross"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- thanks -->
     <!-- <div class="backdrop">
       <div class="modal">
@@ -488,5 +513,6 @@
       </svg>
     </a>
     <script src="./js/modal.js" type="module"></script>
+    <script src="./js/info.js" type="module"></script>
   </body>
 </html>
