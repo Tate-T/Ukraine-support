@@ -124,10 +124,9 @@
               />
               <h3 class="about-name">Олексій Дорошенко</h3>
             </li>
-            <li class="about-item">
+            <li data-info class="about-item">
               <h2 class="about-subtitle">ЗАСНОВНИКИ ФОНДУ</h2>
               <img
-                data-info
                 class="about-photo"
                 src="./images/teodora.jpg"
                 alt="Теодора Левенко"
@@ -469,7 +468,7 @@
         </form>
       </div>
     </div>
-    <div data-modal class="backdrop is-hidden">
+    <div data-photo class="backdrop is-hidden">
       <div class="modal-people">
         <div class="modal-container">
           <img src="./images/teodora.webp" alt="Дівчина" class="modal-photo" />
@@ -481,14 +480,11 @@
               ЗСУ.Раніше я працювала у сфері фінансів.Тому зараз займаюсь
               переказами на ЗСУ.
             </p>
-            <svg
-              modal-info-close
-              class="modal-info-close"
-              width="14"
-              height="14"
-            >
-              <use href="./images/symbol-defs.svg#cross"></use>
-            </svg>
+            <button data-info-close class="modal-people-close" type="button">
+              <svg class="modal-info-close" width="14" height="14">
+                <use href="./images/symbol-defs.svg#cross"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
@@ -512,7 +508,7 @@
         <use href="./images/symbol-defs.svg#arrow-down"></use>
       </svg>
     </a>
-    <script src="./js/modal.js" type="module"></script>
+    <!-- <script src="./js/modal.js" type="module"></script> -->
     <script src="./js/info.js" type="module"></script>
   </body>
 </html>
