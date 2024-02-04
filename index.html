@@ -121,7 +121,7 @@
             <img class="about-photo" src="./images/teodora.jpg" alt="Теодора Левенко" />
             <h3 class="about-name">Теодора Левенко</h3>
           </li>
-          <li class="about-item">
+          <li data-taras-open class="about-item">
             <img class="about-photo" src="./images/taras.jpg" alt="Тарас Балiнськiй" />
             <h3 class="about-name">Тарас Балiнськiй</h3>
           </li>
@@ -421,9 +421,30 @@
           <h2 class="modal-people-title">Олексій Дорошенко</h2>
           <p class="mobal-text">
             Добрий день!Мене звати Олексій Дорошенко.Мені 23 роки.І я є частиною чудової команди яка працює над фондом
-            який допомагає ЗСУ.Раніше я працювала у сфері фінансів.Тому зараз займаюсь переказами на ЗСУ.
+            який допомагає ЗСУ.Раніше я працював у сфері фінансів.Тому зараз займаюсь переказами на ЗСУ.
           </p>
           <button data-oleksiy-close class="modal-people-close" type="button">
+            <svg class="modal-info-close" width="14" height="14">
+              <use href="./images/symbol-defs.svg#cross"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-photo-taras class="backdrop is-hidden">
+    <div class="modal-people">
+      <div class="modal-container">
+        <img src="./images/taras-modal.webp" alt="Тарас" class="modal-photo" />
+        <div class="modal-text-container">
+          <h2 class="modal-people-title">Тарас Балінській</h2>
+          <p class="mobal-text">
+            Добрий день!Мене звати Тарас Балінській.Мені 25 роки.І я є
+            частиною чудової команди яка працює над фондом який допомагає
+            ЗСУ.Раніше я працював у сфері фінансів.Тому зараз займаюсь
+            переказами на ЗСУ.
+          </p>
+          <button data-taras-close class="modal-people-close" type="button">
             <svg class="modal-info-close" width="14" height="14">
               <use href="./images/symbol-defs.svg#cross"></use>
             </svg>
@@ -452,8 +473,8 @@
     </svg>
   </a>
   <script src="./js/modal.js" type="module"></script>
-  <script src="./js/info.js" type="module"></script>
+  <script src="./js/modal-teodora.js" type="module"></script>
   <script src="./js/modal-oleksiy.js" type="module"></script>
+  <script src="./js/modal-taras.js" type="module"></script>
 </body>
-
 </html>
