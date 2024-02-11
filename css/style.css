@@ -185,6 +185,19 @@ body {
   border-radius: 10px;
   transition-property: box-shadow, color;
   transition-duration: 450ms;
+  animation-name: button-move;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes button-move {
+  0% {
+    transform: translateY(350px) rotate(0);
+  }
+
+  100% {
+    transform: translateY(0) rotate(720deg);
+  }
 }
 
 .hero-button:hover {
