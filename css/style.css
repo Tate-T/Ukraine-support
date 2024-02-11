@@ -173,7 +173,28 @@ body {
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 48px;
+  animation-name: text-move;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+
 }
+
+@keyframes text-move {
+ 0% {
+  text-shadow: none;
+  opacity: 0;
+ }
+
+50% {
+  text-shadow: 2px 2px 5px #424242;
+}
+
+ 100% {
+  opacity: 1;
+  text-shadow: none;
+ }
+}
+
 .hero-button {
   color: var(--secondaru-text);
   background-color: var(--accent-color);
