@@ -23,6 +23,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
@@ -95,7 +96,7 @@
           </p>
 
           <ul class="about-list">
-            <li data-oleksiy class="about-item">
+            <li data-oleksiy class="about-item" data-aos="flip-right">
               <img
                 class="about-photo"
                 src="./images/alex.jpg"
@@ -103,7 +104,7 @@
               />
               <h3 class="about-name">Олексій Дорошенко</h3>
             </li>
-            <li data-info class="about-item">
+            <li data-info class="about-item" data-aos="flip-right">
               <h2 class="about-subtitle">ЗАСНОВНИКИ ФОНДУ</h2>
               <img
                 class="about-photo"
@@ -112,7 +113,7 @@
               />
               <h3 class="about-name">Теодора Левенко</h3>
             </li>
-            <li data-taras-open class="about-item">
+            <li data-taras-open class="about-item" data-aos="flip-right">
               <img
                 class="about-photo"
                 src="./images/taras.jpg"
@@ -120,7 +121,7 @@
               />
               <h3 class="about-name">Тарас Балiнськiй</h3>
             </li>
-            <li data-jesica class="about-item">
+            <li data-jesica class="about-item" data-aos="flip-right">
               <img
                 class="about-photo"
                 src="./images/jesica.jpg"
@@ -563,5 +564,9 @@
     <script src="./js/modal-oleksiy.js" type="module"></script>
     <script src="./js/modal-taras.js" type="module"></script>
     <script src="./js/modal-jesica.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
