@@ -13,7 +13,7 @@ body {
   font-family: Inter;
   background-color: var(--background-color);
 }
- 
+
 .container {
   width: 1183px;
   padding: 0 15px;
@@ -113,13 +113,6 @@ body {
   opacity: 1;
 }
 
-.hero-title {
-  color: var(--text-color);
-  font-size: 128px;
-  font-weight: 400;
-  margin-bottom: 6px;
-}
-
 .hero {
   background-image: url(../images/herobg.png);
   box-shadow: -1px 1px 8px -3px rgba(0, 0, 0, 0.25) inset;
@@ -129,6 +122,28 @@ body {
   background-size: cover;
   padding-top: 123px;
   padding-bottom: 21px;
+  overflow: hidden;
+}
+
+.hero-title {
+  color: var(--text-color);
+  font-size: 128px;
+  font-weight: 400;
+  margin-bottom: 6px;
+  transform: translate(0);
+  animation-name: title-move;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes title-move {
+  0% {
+    transform: translate(-1500px, 0);
+  }
+
+  100% {
+    transform: translate(0);
+  }
 }
 
 .hero-subtitle {
@@ -136,7 +151,21 @@ body {
   font-size: 64px;
   font-weight: 400;
   margin-bottom: 30px;
+  animation-name: subtitle-move;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
 }
+
+@keyframes subtitle-move {
+  0% {
+    transform: translate(2000px, 0);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
 .hero-text {
   max-width: 460px;
   color: var(--text-color);
