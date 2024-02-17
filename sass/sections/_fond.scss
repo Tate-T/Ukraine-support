@@ -1,0 +1,57 @@
+
+
+.mariupol {
+    padding-top: 72px;
+    padding-bottom: 160px;
+  }
+  
+  .mariupol-title {
+    color: var(--secondaru-text);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .mariupol-text {
+    color: var(--secondaru-text);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 351px;
+    margin-bottom: 129px;
+  }
+  .mariupol-details {
+    color: var(--accent-color);
+    font-size: 64px;
+    font-weight: 400;
+    padding-bottom: 101px;
+    text-align: center;
+  }
+  .mariupol-info {
+    border: var(--accent-color) solid 4px;
+    border-radius: 8px;
+    max-width: 752px;
+    margin: 0 auto;
+    padding: 37px 0 14px 15px;
+    background-color: var(--text-color);
+  }
+  
+  .mariupol-company {
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: 2px 3px 2px #000000;
+    margin-bottom: 17px;
+  }
+  .mariupol-desc {
+    color: var(--secondaru-text);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 32px;
+  }
+  
+  .mariupol-desc:last-child {
+    margin: 0;
+  }
+  

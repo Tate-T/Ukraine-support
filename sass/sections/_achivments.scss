@@ -1,0 +1,66 @@
+
+.khreson-achievement {
+    color: var(--accent-color);
+    font-size: 64px;
+    font-weight: 400;
+    margin-top: 133px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .khreson-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 630px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1018px;
+    gap: 40px;
+    margin: 0 auto;
+    margin-bottom: 115px;
+  }
+  
+  .khreson-item {
+    width: 312px;
+    line-height: 0;
+  }
+  
+  .khreson-article {
+  }
+  
+  .khreson-photo {
+    margin-bottom: 40px;
+  }
+  
+  .khreson-photo:last-child,
+  .khreson-photo:only-child {
+    margin: 0;
+  }
+  
+  .khreson-info {
+    color: var(--text-color);
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 2px solid var(--accent-color);
+    padding: 0 11px;
+    line-height: normal;
+  }
+  
+  .khreson-item:first-child .khreson-info {
+    padding-bottom: 21px;
+    padding-top: 21px;
+  }
+  
+  .khreson-item:last-child .khreson-info {
+    padding-bottom: 124px;
+    padding-top: 68px;
+  }
+  
+  .khreson-info:first-child {
+    margin-bottom: 40px;
+    padding-bottom: 50px;
+    padding-top: 64px;
+  }

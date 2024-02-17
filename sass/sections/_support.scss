@@ -1,0 +1,56 @@
+
+.support {
+    padding: 40px 0 46px;
+  }
+  
+  .support-title {
+    color: var(--accent-color);
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .support-list {
+    display: flex;
+    justify-content: center;
+    gap: 222px;
+  }
+  
+  .support-info {
+    color: var(--secondaru-text);
+    font-size: 32px;
+    font-weight: 400;
+    padding: 88px 40px;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .support-item:nth-child(2) .support-info {
+    padding: 88px 20.5px;
+  }
+  
+  .support-art {
+    position: relative;
+  }
+  
+  .support-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 32px;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 350ms;
+  }
+  
+  .support-overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+  }

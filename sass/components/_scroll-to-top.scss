@@ -1,0 +1,27 @@
+
+.scroll-top {
+    background-color: var(--accent-color);
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  
+    border: 3px solid var(--text-color);
+    transition-property: box-shadow;
+    transition-duration: 320ms;
+  }
+  
+  .scroll-top:hover {
+    box-shadow: 0 0 10px 5px var(--accent-color);
+  }
+  
+  .scroll-icon {
+    stroke: var(--text-color);
+    transform: rotate(180deg);
+  }
+  
