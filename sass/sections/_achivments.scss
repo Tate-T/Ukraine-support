@@ -1,6 +1,6 @@
 
 .khreson-achievement {
-    color: var(--accent-color);
+    color: $accent-color;
     font-size: 64px;
     font-weight: 400;
     margin-top: 133px;
@@ -39,12 +39,12 @@
   }
   
   .khreson-info {
-    color: var(--text-color);
+    color: $text-color;
     text-align: justify;
     font-size: 20px;
     font-weight: 400;
     border-radius: 8px;
-    border: 2px solid var(--accent-color);
+    border: 2px solid $accent-color;
     padding: 0 11px;
     line-height: normal;
   }

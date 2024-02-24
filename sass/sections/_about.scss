@@ -12,17 +12,17 @@
   }
   
   .about-title {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   .about-text {
-    color: var(--text-color);
+    color: $text-color;
   }
   .about-name {
-    color: var(--text-color);
+    color: $text-color;
   }
   
   .about-title {
-    color: var(--accent-color);
+    color: $accent-color;
     text-align: center;
     font-size: 48px;
     font-weight: 400;
@@ -31,7 +31,7 @@
   }
   
   .about-text {
-    color: var(--text-color);
+    color: $text-color;
     text-align: justify;
     font-size: 24px;
     font-weight: 400;
@@ -43,7 +43,7 @@
   }
   
   .about-name {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
@@ -72,7 +72,7 @@
   }
   
   .about-subtitle {
-    color: var(--accent-color);
+    color: $accent-color;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 32px;

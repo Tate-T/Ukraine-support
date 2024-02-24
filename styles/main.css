@@ -34,14 +34,7 @@ html {
 
 body {
   font-family: Inter;
-  background-color: var(--background-color);
-}
-
-:root {
-  --accent-color: #ffd76e;
-  --text-color: #ffffff;
-  --background-color: #050404;
-  --secondaru-text: #000000;
+  background-color: #050404;
 }
 
 .container {
@@ -301,19 +294,19 @@ body {
 }
 
 .about-title {
-  color: var(--accent-color);
+  color: #ffd76e;
 }
 
 .about-text {
-  color: var(--text-color);
+  color: #ffffff;
 }
 
 .about-name {
-  color: var(--text-color);
+  color: #ffffff;
 }
 
 .about-title {
-  color: var(--accent-color);
+  color: #ffd76e;
   text-align: center;
   font-size: 48px;
   font-weight: 400;
@@ -322,7 +315,7 @@ body {
 }
 
 .about-text {
-  color: var(--text-color);
+  color: #ffffff;
   text-align: justify;
   font-size: 24px;
   font-weight: 400;
@@ -334,7 +327,7 @@ body {
 }
 
 .about-name {
-  color: var(--text-color);
+  color: #ffffff;
   font-size: 24px;
   font-weight: 400;
   text-align: center;
@@ -363,7 +356,7 @@ body {
 }
 
 .about-subtitle {
-  color: var(--accent-color);
+  color: #ffd76e;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 32px;
@@ -396,6 +389,54 @@ body {
   text-align: center;
   max-width: 351px;
   margin: 0 auto;
+}
+
+.information {
+  padding-top: 37px;
+  padding-bottom: 92px;
+}
+
+.information-container {
+  display: flex;
+  gap: 132px;
+  align-items: flex-end;
+}
+
+.information-wrap {
+  padding-bottom: 55px;
+}
+
+.information-info {
+  color: #ffd76e;
+  font-size: 64px;
+  font-weight: 400;
+  margin-bottom: 46px;
+}
+
+.information-description {
+  color: #ffffff;
+  text-align: justify;
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 559px;
+  margin-left: auto;
+}
+
+.information-btn {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 10px;
+  background: #ffd76e;
+  margin-top: 125px;
+  margin-left: auto;
+  display: block;
+  padding: 15px 31px 16px;
+}
+
+.information-foto {
+  width: 396px;
+  height: 460px;
 }
 
 .support {
@@ -561,7 +602,7 @@ body {
 }
 
 .khreson-achievement {
-  color: var(--accent-color);
+  color: #ffd76e;
   font-size: 64px;
   font-weight: 400;
   margin-top: 133px;
@@ -597,12 +638,12 @@ body {
 }
 
 .khreson-info {
-  color: var(--text-color);
+  color: #ffffff;
   text-align: justify;
   font-size: 20px;
   font-weight: 400;
   border-radius: 8px;
-  border: 2px solid var(--accent-color);
+  border: 2px solid #ffd76e;
   padding: 0 11px;
   line-height: normal;
 }
