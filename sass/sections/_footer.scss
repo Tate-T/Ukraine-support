@@ -10,7 +10,7 @@
     background-size: cover;
   }
   .footer-title {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-size: 48px;
     font-weight: 500;
@@ -26,12 +26,12 @@
   .footer-item {
   }
   .footer-link:hover .footer-icon {
-    fill: var(--text-color);
+    fill: $text-color;
   }
   .footer-icon {
     width: 64px;
     height: 67px;
-    fill: var(--accent-color);
+    fill: $accent-color;
     transition-property: fill;
     transition-duration: 350ms;
   }

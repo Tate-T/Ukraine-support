@@ -45,7 +45,7 @@ body {
 }
 
 .scroll-top {
-  background-color: var(--accent-color);
+  background-color: #ffd76e;
   width: 75px;
   height: 75px;
   display: flex;
@@ -55,17 +55,17 @@ body {
   position: fixed;
   bottom: 50px;
   right: 50px;
-  border: 3px solid var(--text-color);
+  border: 3px solid #ffffff;
   transition-property: box-shadow;
   transition-duration: 320ms;
 }
 
 .scroll-top:hover {
-  box-shadow: 0 0 10px 5px var(--accent-color);
+  box-shadow: 0 0 10px 5px #ffd76e;
 }
 
 .scroll-icon {
-  stroke: var(--text-color);
+  stroke: #ffffff;
   transform: rotate(180deg);
 }
 
@@ -95,7 +95,7 @@ body {
 }
 
 .header-link {
-  color: var(--text-color);
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   position: relative;
@@ -124,18 +124,18 @@ body {
 }
 
 .header-sublink {
-  color: var(--text-color);
+  color: #ffffff;
   transition-property: color;
   transition-duration: 250ms;
 }
 
 .header-sublink:hover {
-  color: var(--accent-color);
+  color: #ffd76e;
 }
 
 .header-link::after {
   border-radius: 4px;
-  background-color: var(--accent-color);
+  background-color: #ffd76e;
   width: 100%;
   height: 5px;
   content: "";
@@ -152,7 +152,7 @@ body {
 .header-link:hover {
   font-size: 16px;
   font-weight: 500;
-  color: var(--accent-color);
+  color: #ffd76e;
 }
 
 .header-link:hover::after {
@@ -173,7 +173,7 @@ body {
 }
 
 .hero-title {
-  color: var(--text-color);
+  color: #ffffff;
   font-size: 128px;
   font-weight: 400;
   margin-bottom: 6px;
@@ -192,7 +192,7 @@ body {
   }
 }
 .hero-subtitle {
-  color: var(--text-color);
+  color: #ffffff;
   font-size: 64px;
   font-weight: 400;
   margin-bottom: 30px;
@@ -211,7 +211,7 @@ body {
 }
 .hero-text {
   max-width: 460px;
-  color: var(--text-color);
+  color: #ffffff;
   text-align: justify;
   font-size: 24px;
   font-weight: 400;
@@ -235,8 +235,8 @@ body {
   }
 }
 .hero-button {
-  color: var(--secondaru-text);
-  background-color: var(--accent-color);
+  color: #000000;
+  background-color: #ffd76e;
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 84px;
@@ -259,8 +259,8 @@ body {
   }
 }
 .hero-button:hover {
-  box-shadow: 0 0 10px 5px var(--accent-color);
-  color: var(--text-color);
+  box-shadow: 0 0 10px 5px #ffd76e;
+  color: #ffffff;
 }
 
 .hero-link {
@@ -274,7 +274,7 @@ body {
 }
 
 .hero-icon {
-  fill: var(--text-color);
+  fill: #ffffff;
   display: block;
   margin: 0 auto;
   margin-top: 13px;
@@ -374,7 +374,7 @@ body {
 }
 
 .city-title {
-  color: var(--secondaru-text);
+  color: #000000;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
@@ -382,7 +382,7 @@ body {
 }
 
 .city-text {
-  color: var(--secondaru-text);
+  color: #000000;
   text-align: center;
   font-size: 20px;
   font-weight: 400;
@@ -444,7 +444,7 @@ body {
 }
 
 .support-title {
-  color: var(--accent-color);
+  color: #ffd76e;
   font-size: 64px;
   font-weight: 400;
   text-align: center;
@@ -458,7 +458,7 @@ body {
 }
 
 .support-info {
-  color: var(--secondaru-text);
+  color: #000000;
   font-size: 32px;
   font-weight: 400;
   padding: 88px 40px;
@@ -502,13 +502,13 @@ body {
 
 .kyiv-title {
   text-align: center;
-  color: var(--secondaru-text);
+  color: #000000;
   font-size: 24px;
   font-weight: 700;
 }
 
 .kyiv-text {
-  color: var(--secondaru-text);
+  color: #000000;
   text-align: center;
   font-size: 20px;
   font-weight: 400;
@@ -532,7 +532,7 @@ body {
 
 .games-arrow {
   fill: none;
-  stroke: var(--accent-color);
+  stroke: #ffd76e;
   position: absolute;
   left: 0;
   top: 241px;
@@ -555,7 +555,7 @@ body {
 }
 
 .kyiv-games {
-  color: var(--accent-color);
+  color: #ffd76e;
   font-size: 64px;
   font-weight: 400;
   text-align: center;
@@ -574,7 +574,7 @@ body {
 }
 
 .kyiv-desc {
-  color: var(--text-color);
+  color: #ffffff;
   font-size: 24px;
   font-weight: 400;
   text-align: center;
@@ -582,7 +582,7 @@ body {
 }
 
 .kyiv-product {
-  color: var(--accent-color);
+  color: #ffd76e;
   font-size: 64px;
   font-weight: 400;
   margin-top: 292px;
@@ -670,7 +670,7 @@ body {
 }
 
 .mariupol-title {
-  color: var(--secondaru-text);
+  color: #000000;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
@@ -678,7 +678,7 @@ body {
 }
 
 .mariupol-text {
-  color: var(--secondaru-text);
+  color: #000000;
   text-align: center;
   font-size: 20px;
   font-weight: 400;
@@ -688,7 +688,7 @@ body {
 }
 
 .mariupol-details {
-  color: var(--accent-color);
+  color: #ffd76e;
   font-size: 64px;
   font-weight: 400;
   padding-bottom: 101px;
@@ -696,16 +696,16 @@ body {
 }
 
 .mariupol-info {
-  border: var(--accent-color) solid 4px;
+  border: #ffd76e solid 4px;
   border-radius: 8px;
   max-width: 752px;
   margin: 0 auto;
   padding: 37px 0 14px 15px;
-  background-color: var(--text-color);
+  background-color: #ffffff;
 }
 
 .mariupol-company {
-  color: var(--accent-color);
+  color: #ffd76e;
   font-size: 20px;
   font-weight: 300;
   text-shadow: 2px 3px 2px #000000;
@@ -713,7 +713,7 @@ body {
 }
 
 .mariupol-desc {
-  color: var(--secondaru-text);
+  color: #000000;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 32px;
@@ -732,7 +732,7 @@ body {
 }
 
 .footer-title {
-  color: var(--text-color);
+  color: #ffffff;
   text-align: center;
   font-size: 48px;
   font-weight: 500;
@@ -746,13 +746,13 @@ body {
 }
 
 .footer-link:hover .footer-icon {
-  fill: var(--text-color);
+  fill: #ffffff;
 }
 
 .footer-icon {
   width: 64px;
   height: 67px;
-  fill: var(--accent-color);
+  fill: #ffd76e;
   transition-property: fill;
   transition-duration: 350ms;
 }
@@ -779,7 +779,7 @@ body {
 }
 
 .modal {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 10px;
   padding: 30px 46px 32px 48px;
   position: absolute;
@@ -806,7 +806,7 @@ body {
 }
 
 .modal-title {
-  color: var(--secondaru-text);
+  color: #000000;
   font-size: 32px;
   font-weight: 400;
   line-height: 1.21;
@@ -822,7 +822,7 @@ body {
 }
 
 .modal-name {
-  color: var(--secondaru-text);
+  color: #000000;
   font-size: 24px;
   font-weight: 200;
   line-height: 1.21;
@@ -847,7 +847,7 @@ body {
   line-height: normal;
   padding: 15px 31px;
   border-radius: 10px;
-  background: var(--accent-color);
+  background: #ffd76e;
   margin: 0 auto;
   display: block;
   transition-property: box-shadow, color;
@@ -855,8 +855,8 @@ body {
 }
 
 .modal-btn:hover {
-  box-shadow: 0 0 10px 5px var(--accent-color);
-  color: var(--text-color);
+  box-shadow: 0 0 10px 5px #ffd76e;
+  color: #ffffff;
 }
 
 .modal-title {
@@ -869,7 +869,7 @@ body {
 
 .modal-people {
   padding: 40px 37px 25px 40px;
-  background-color: var(--text-color);
+  background-color: #ffffff;
   border-radius: 10px;
   width: 837px;
   height: 577px;
@@ -895,7 +895,7 @@ body {
 .mobal-text {
   font-weight: 300;
   font-size: 24px;
-  color: var(--secondaru-text);
+  color: #000000;
 }
 
 .modal-info-close {

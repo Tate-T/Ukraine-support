@@ -4,7 +4,7 @@
   }
   
   .support-title {
-    color: var(--accent-color);
+    color: $accent-color;
     font-size: 64px;
     font-weight: 400;
     text-align: center;
@@ -18,7 +18,7 @@
   }
   
   .support-info {
-    color: var(--secondaru-text);
+    color: $secondary-text;
     font-size: 32px;
     font-weight: 400;
     padding: 88px 40px;

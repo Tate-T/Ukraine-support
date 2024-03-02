@@ -23,7 +23,7 @@
   }
   
   .modal {
-    background-color: #fff;
+    background-color:  $text-color ;
     border-radius: 10px;
     padding: 30px 46px 32px 48px;
     position: absolute;
@@ -50,7 +50,7 @@
     padding-left: 15px;
   }
   .modal-title {
-    color: var(--secondaru-text);
+    color:$secondary-text;
     font-size: 32px;
     font-weight: 400;
     line-height: 1.21;
@@ -66,7 +66,7 @@
   }
   
   .modal-name {
-    color: var(--secondaru-text);
+    color:$secondary-text;
     font-size: 24px;
     font-weight: 200;
     line-height: 1.21;
@@ -91,7 +91,7 @@
     line-height: normal;
     padding: 15px 31px;
     border-radius: 10px;
-    background: var(--accent-color);
+    background:$accent-color;
     margin: 0 auto;
     display: block;
     transition-property: box-shadow, color;
@@ -99,8 +99,8 @@
   }
   
   .modal-btn:hover {
-    box-shadow: 0 0 10px 5px var(--accent-color);
-    color: var(--text-color);
+    box-shadow: 0 0 10px 5px$accent-color;
+    color:$text-color;
   }
   
   .modal-title {
@@ -113,7 +113,7 @@
   
   .modal-people {
     padding: 40px 37px 25px 40px;
-    background-color: var(--text-color);
+    background-color:$text-color;
     border-radius: 10px;
     width: 837px;
     height: 577px;
@@ -140,7 +140,7 @@
   .mobal-text {
     font-weight: 300;
     font-size: 24px;
-    color: var(--secondaru-text);
+    color:$secondary-text;
   }
   
   .modal-info-close {

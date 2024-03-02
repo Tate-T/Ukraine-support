@@ -6,13 +6,13 @@
   
   .kyiv-title {
     text-align: center;
-    color: var(--secondaru-text);
+    color: $secondary-text;
     font-size: 24px;
     font-weight: 700;
   }
   
   .kyiv-text {
-    color: var(--secondaru-text);
+    color: $secondary-text;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
@@ -35,7 +35,7 @@
   
   .games-arrow {
     fill: none;
-    stroke: var(--accent-color);
+    stroke: $accent-color;
     position: absolute;
     left: 0;
     top: 241px;
@@ -58,7 +58,7 @@
   }
   
   .kyiv-games {
-    color: var(--accent-color);
+    color: $accent-color;
     font-size: 64px;
     font-weight: 400;
     text-align: center;
@@ -77,7 +77,7 @@
   }
   
   .kyiv-desc {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
@@ -85,7 +85,7 @@
   }
   
   .kyiv-product {
-    color: var(--accent-color);
+    color: $accent-color;
     font-size: 64px;
     font-weight: 400;
     margin-top: 292px;

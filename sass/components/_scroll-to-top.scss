@@ -1,6 +1,6 @@
 
 .scroll-top {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     width: 75px;
     height: 75px;
     display: flex;
@@ -11,17 +11,17 @@
     bottom: 50px;
     right: 50px;
   
-    border: 3px solid var(--text-color);
+    border: 3px solid $text-color;
     transition-property: box-shadow;
     transition-duration: 320ms;
   }
   
   .scroll-top:hover {
-    box-shadow: 0 0 10px 5px var(--accent-color);
+    box-shadow: 0 0 10px 5px $accent-color;
   }
   
   .scroll-icon {
-    stroke: var(--text-color);
+    stroke: $text-color;
     transform: rotate(180deg);
   }
   
