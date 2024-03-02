@@ -1,16 +1,15 @@
 .hero {
-    background-image: url(../images/herobg.png);
-    box-shadow: -1px 1px 8px -3px rgba(0, 0, 0, 0.25) inset;
-    backdrop-filter: blur(4.5px);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 123px;
-    padding-bottom: 21px;
-    overflow: hidden;
-  }
-  
-  .hero-title {
+  background-image: url(../images/herobg.png);
+  box-shadow: -1px 1px 8px -3px rgba(0, 0, 0, 0.25) inset;
+  backdrop-filter: blur(4.5px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 123px;
+  padding-bottom: 21px;
+  overflow: hidden;
+
+  &__title {
     color: $text-color;
     font-size: 128px;
     font-weight: 400;
@@ -20,18 +19,8 @@
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
   }
-  
-  @keyframes title-move {
-    0% {
-      transform: translate(-1500px, 0);
-    }
-  
-    100% {
-      transform: translate(0);
-    }
-  }
-  
-  .hero-subtitle {
+
+  &__subtitle {
     color: $text-color;
     font-size: 64px;
     font-weight: 400;
@@ -40,18 +29,8 @@
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
   }
-  
-  @keyframes subtitle-move {
-    0% {
-      transform: translate(2000px, 0);
-    }
-  
-    100% {
-      transform: translate(0);
-    }
-  }
-  
-  .hero-text {
+
+  &__text {
     max-width: 460px;
     color: $text-color;
     text-align: justify;
@@ -61,26 +40,10 @@
     animation-name: text-move;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
-  
+
   }
-  
-  @keyframes text-move {
-   0% {
-    text-shadow: none;
-    opacity: 0;
-   }
-  
-  50% {
-    text-shadow: 2px 2px 5px #424242;
-  }
-  
-   100% {
-    opacity: 1;
-    text-shadow: none;
-   }
-  }
-  
-  .hero-button {
+
+  &__button {
     color: $secondary-text;
     background-color: $accent-color;
     font-size: 24px;
@@ -94,24 +57,14 @@
     animation-name: button-move;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
-  }
-  
-  @keyframes button-move {
-    0% {
-      transform: translateY(350px) rotate(0);
-    }
-  
-    100% {
-      transform: translateY(0) rotate(720deg);
+
+    &:hover {
+      box-shadow: 0 0 10px 5px $accent-color;
+      color: $text-color;
     }
   }
-  
-  .hero-button:hover {
-    box-shadow: 0 0 10px 5px $accent-color;
-    color: $text-color;
-  }
-  
-  .hero-link {
+
+  &__link {
     color: rgba(255, 255, 255, 1);
     font-size: 24px;
     font-style: normal;
@@ -120,11 +73,58 @@
     display: block;
     text-align: center;
   }
-  
-  .hero-icon {
+
+  &__icon {
     fill: $text-color;
     display: block;
     margin: 0 auto;
     margin-top: 13px;
   }
-  
+}
+
+@keyframes title-move {
+  0% {
+    transform: translate(-1500px, 0);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+
+@keyframes subtitle-move {
+  0% {
+    transform: translate(2000px, 0);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes text-move {
+  0% {
+    text-shadow: none;
+    opacity: 0;
+  }
+
+  50% {
+    text-shadow: 2px 2px 5px #424242;
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: none;
+  }
+}
+
+@keyframes button-move {
+  0% {
+    transform: translateY(350px) rotate(0);
+  }
+
+  100% {
+    transform: translateY(0) rotate(720deg);
+  }
+}
