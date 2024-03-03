@@ -579,38 +579,18 @@ body {
   padding-top: 64px;
 }
 
-.mariupol {
+.fond {
   padding-top: 72px;
   padding-bottom: 160px;
 }
-
-.mariupol-title {
-  color: #000000;
-  font-size: 24px;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.mariupol-text {
-  color: #000000;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 400;
-  margin: 0 auto;
-  max-width: 351px;
-  margin-bottom: 129px;
-}
-
-.mariupol-details {
+.fond__title {
   color: #ffd76e;
   font-size: 64px;
   font-weight: 400;
   padding-bottom: 101px;
   text-align: center;
 }
-
-.mariupol-info {
+.fond__info {
   border: #ffd76e solid 4px;
   border-radius: 8px;
   max-width: 752px;
@@ -618,23 +598,20 @@ body {
   padding: 37px 0 14px 15px;
   background-color: #ffffff;
 }
-
-.mariupol-company {
+.fond__company {
   color: #ffd76e;
   font-size: 20px;
   font-weight: 300;
   text-shadow: 2px 3px 2px #000000;
   margin-bottom: 17px;
 }
-
-.mariupol-desc {
+.fond__desc {
   color: #000000;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 32px;
 }
-
-.mariupol-desc:last-child {
+.fond__desc:last-child {
   margin: 0;
 }
 
