@@ -364,25 +364,25 @@ body {
   padding-top: 37px;
   padding-bottom: 92px;
 }
-
-.information-container {
+.information__container {
   display: flex;
   gap: 132px;
   align-items: flex-end;
 }
-
-.information-wrap {
+.information__foto {
+  width: 396px;
+  height: 460px;
+}
+.information__wrap {
   padding-bottom: 55px;
 }
-
-.information-info {
+.information__info {
   color: #ffd76e;
   font-size: 64px;
   font-weight: 400;
   margin-bottom: 46px;
 }
-
-.information-description {
+.information__description {
   color: #ffffff;
   text-align: justify;
   font-size: 24px;
@@ -390,8 +390,7 @@ body {
   max-width: 559px;
   margin-left: auto;
 }
-
-.information-btn {
+.information__btn {
   color: #000000;
   font-size: 24px;
   font-weight: 400;
@@ -401,11 +400,6 @@ body {
   margin-left: auto;
   display: block;
   padding: 15px 31px 16px;
-}
-
-.information-foto {
-  width: 396px;
-  height: 460px;
 }
 
 .support {
