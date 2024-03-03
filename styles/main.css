@@ -451,29 +451,6 @@ body {
   cursor: pointer;
 }
 
-.kyiv {
-  padding-top: 75px;
-  padding-bottom: 180px;
-}
-
-.kyiv-title {
-  text-align: center;
-  color: #000000;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.kyiv-text {
-  color: #000000;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 400;
-  width: 351px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-}
-
 .games {
   background-image: url(../images/games-bg.jpg);
   background-repeat: no-repeat;
@@ -481,63 +458,53 @@ body {
   padding-bottom: 180px;
   padding-top: 43px;
 }
-
 .games .container {
   position: relative;
 }
-
-.games-arrow {
+.games__arrow {
   fill: none;
   stroke: #ffd76e;
   position: absolute;
   left: 0;
   top: 241px;
 }
-
-.games-icon {
+.games__icon {
   top: 985px;
 }
-
-.kyiv-goods + .games-icon {
+.games__goods + .games__icon {
   right: 0;
   left: auto;
   transform: rotate(180deg);
 }
-
-.kyiv-list + .games-arrow {
+.games__list + .games__arrow {
   transform: rotate(180deg);
   right: 0;
   left: auto;
 }
-
-.kyiv-games {
+.games__title {
   color: #ffd76e;
   font-size: 64px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 30px;
 }
-
-.kyiv-list {
+.games__list {
   display: flex;
   gap: 70px;
   justify-content: center;
 }
-
-.kyiv-photo {
+.games__photo {
   width: 300px;
   height: 300px;
 }
-
-.kyiv-desc {
+.games__desc {
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
   text-align: center;
   margin-top: 23px;
 }
-
-.kyiv-product {
+.games__product {
   color: #ffd76e;
   font-size: 64px;
   font-weight: 400;
@@ -545,14 +512,12 @@ body {
   text-align: center;
   margin-bottom: 23px;
 }
-
-.kyiv-goods {
+.games__goods {
   display: flex;
   justify-content: center;
   gap: 65px;
 }
-
-.kyiv-img {
+.games__img {
   width: 300px;
   height: 300px;
 }
