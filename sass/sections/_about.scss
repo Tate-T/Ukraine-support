@@ -1,27 +1,26 @@
 .about {
-    padding-top: 40px;
-    padding-bottom: 77px;
-    background-image: url(../images/about-boxes.png);
-    background-repeat: no-repeat;
-  }
-  
-  .about .container {
-    background-image: url(../images/about-box.png), url(../images/about-box2.png);
+  padding-top: 40px;
+  padding-bottom: 77px;
+  background-image: url(../images/about-boxes.png);
+  background-repeat: no-repeat;
+  & .container {
+    background-image: url(../images/about-box.png),
+      url(../images/about-box2.png);
     background-repeat: no-repeat;
     background-position: 396px 655px, 228px 360px;
   }
-  
-  .about-title {
+
+  &__title {
     color: $accent-color;
   }
-  .about-text {
+  &__text {
     color: $text-color;
   }
-  .about-name {
+  &__name {
     color: $text-color;
   }
-  
-  .about-title {
+
+  &__title {
     color: $accent-color;
     text-align: center;
     font-size: 48px;
@@ -29,8 +28,8 @@
     display: flex;
     flex-direction: column;
   }
-  
-  .about-text {
+
+  &__text {
     color: $text-color;
     text-align: justify;
     font-size: 24px;
@@ -41,16 +40,16 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
-  .about-name {
+
+  &__name {
     color: $text-color;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
     margin-top: 10px;
   }
-  
-  .about-list {
+
+  &__list {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -59,22 +58,22 @@
     margin-right: auto;
     position: relative;
   }
-  
-  .about-item:first-child {
+
+  &__item:first-child {
     padding-left: 259px;
     padding-right: 333px;
   }
-  
-  .about-item:nth-child(2) {
+
+  &__item:nth-child(2) {
     position: absolute;
     right: 15px;
     top: 108px;
   }
-  
-  .about-subtitle {
+
+  &__subtitle {
     color: $accent-color;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 32px;
   }
-  
+}

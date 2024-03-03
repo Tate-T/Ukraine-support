@@ -160,8 +160,7 @@ body {
   padding-bottom: 21px;
   overflow: hidden;
 }
-
-.hero-title {
+.hero__title {
   color: #ffffff;
   font-size: 128px;
   font-weight: 400;
@@ -171,16 +170,7 @@ body {
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
 }
-
-@keyframes title-move {
-  0% {
-    transform: translate(-1500px, 0);
-  }
-  100% {
-    transform: translate(0);
-  }
-}
-.hero-subtitle {
+.hero__subtitle {
   color: #ffffff;
   font-size: 64px;
   font-weight: 400;
@@ -189,16 +179,7 @@ body {
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
 }
-
-@keyframes subtitle-move {
-  0% {
-    transform: translate(2000px, 0);
-  }
-  100% {
-    transform: translate(0);
-  }
-}
-.hero-text {
+.hero__text {
   max-width: 460px;
   color: #ffffff;
   text-align: justify;
@@ -209,21 +190,7 @@ body {
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
 }
-
-@keyframes text-move {
-  0% {
-    text-shadow: none;
-    opacity: 0;
-  }
-  50% {
-    text-shadow: 2px 2px 5px #424242;
-  }
-  100% {
-    opacity: 1;
-    text-shadow: none;
-  }
-}
-.hero-button {
+.hero__button {
   color: #000000;
   background-color: #ffd76e;
   font-size: 24px;
@@ -238,21 +205,11 @@ body {
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
 }
-
-@keyframes button-move {
-  0% {
-    transform: translateY(350px) rotate(0);
-  }
-  100% {
-    transform: translateY(0) rotate(720deg);
-  }
-}
-.hero-button:hover {
+.hero__button:hover {
   box-shadow: 0 0 10px 5px #ffd76e;
   color: #ffffff;
 }
-
-.hero-link {
+.hero__link {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-style: normal;
@@ -261,40 +218,71 @@ body {
   display: block;
   text-align: center;
 }
-
-.hero-icon {
+.hero__icon {
   fill: #ffffff;
   display: block;
   margin: 0 auto;
   margin-top: 13px;
 }
 
+@keyframes title-move {
+  0% {
+    transform: translate(-1500px, 0);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes subtitle-move {
+  0% {
+    transform: translate(2000px, 0);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes text-move {
+  0% {
+    text-shadow: none;
+    opacity: 0;
+  }
+  50% {
+    text-shadow: 2px 2px 5px #424242;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: none;
+  }
+}
+@keyframes button-move {
+  0% {
+    transform: translateY(350px) rotate(0);
+  }
+  100% {
+    transform: translateY(0) rotate(720deg);
+  }
+}
 .about {
   padding-top: 40px;
   padding-bottom: 77px;
   background-image: url(../images/about-boxes.png);
   background-repeat: no-repeat;
 }
-
 .about .container {
   background-image: url(../images/about-box.png), url(../images/about-box2.png);
   background-repeat: no-repeat;
   background-position: 396px 655px, 228px 360px;
 }
-
-.about-title {
+.about__title {
   color: #ffd76e;
 }
-
-.about-text {
+.about__text {
   color: #ffffff;
 }
-
-.about-name {
+.about__name {
   color: #ffffff;
 }
-
-.about-title {
+.about__title {
   color: #ffd76e;
   text-align: center;
   font-size: 48px;
@@ -302,8 +290,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-.about-text {
+.about__text {
   color: #ffffff;
   text-align: justify;
   font-size: 24px;
@@ -314,16 +301,14 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-.about-name {
+.about__name {
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
   text-align: center;
   margin-top: 10px;
 }
-
-.about-list {
+.about__list {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -332,19 +317,16 @@ body {
   margin-right: auto;
   position: relative;
 }
-
-.about-item:first-child {
+.about__item:first-child {
   padding-left: 259px;
   padding-right: 333px;
 }
-
-.about-item:nth-child(2) {
+.about__item:nth-child(2) {
   position: absolute;
   right: 15px;
   top: 108px;
 }
-
-.about-subtitle {
+.about__subtitle {
   color: #ffd76e;
   font-size: 24px;
   font-weight: 700;
@@ -361,16 +343,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.city-title {
+.city__title {
   color: #000000;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 25px;
 }
-
-.city-text {
+.city__text {
   color: #000000;
   text-align: center;
   font-size: 20px;
