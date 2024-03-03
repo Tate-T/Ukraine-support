@@ -6,3 +6,8 @@ body {
   font-family: Inter;
   background-color: $background-color;
 }
+
+*::selection {
+  background-color: $accent-color;
+  color: $text-color;
+}

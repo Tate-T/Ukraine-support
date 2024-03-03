@@ -1,37 +1,35 @@
 .footer {
-    padding-top: 29px;
-    background-image: linear-gradient(
-        rgba(212, 212, 212, 0.5),
-        rgba(212, 212, 212, 0.5)
-      ),
-      url(../images/games-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .footer-title {
+  padding-top: 29px;
+  background-image: linear-gradient(rgba(212, 212, 212, 0.5),
+      rgba(212, 212, 212, 0.5)),
+    url(../images/games-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__title {
     color: $text-color;
     text-align: center;
     font-size: 48px;
     font-weight: 500;
   }
-  .footer-container {
+
+  &__container {
     display: flex;
     align-items: center;
     gap: 267px;
     justify-content: flex-end;
   }
-  .footer-list {
-  }
-  .footer-item {
-  }
-  .footer-link:hover .footer-icon {
+
+  &__link:hover &__icon {
     fill: $text-color;
   }
-  .footer-icon {
+
+  &__icon {
     width: 64px;
     height: 67px;
     fill: $accent-color;
     transition-property: fill;
     transition-duration: 350ms;
   }
+}

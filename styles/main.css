@@ -37,6 +37,16 @@ body {
   background-color: #050404;
 }
 
+*::-moz-selection {
+  background-color: #ffd76e;
+  color: #ffffff;
+}
+
+*::selection {
+  background-color: #ffd76e;
+  color: #ffffff;
+}
+
 .container {
   width: 1183px;
   padding: 0 15px;
@@ -622,26 +632,22 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.footer-title {
+.footer__title {
   color: #ffffff;
   text-align: center;
   font-size: 48px;
   font-weight: 500;
 }
-
-.footer-container {
+.footer__container {
   display: flex;
   align-items: center;
   gap: 267px;
   justify-content: flex-end;
 }
-
-.footer-link:hover .footer-icon {
+.footer__link:hover .footer__icon {
   fill: #ffffff;
 }
-
-.footer-icon {
+.footer__icon {
   width: 64px;
   height: 67px;
   fill: #ffd76e;
