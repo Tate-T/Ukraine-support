@@ -1,5 +1,7 @@
+.achievement {
+  background-color: $background-color;
 
-.khreson-achievement {
+  &__title {
     color: $accent-color;
     font-size: 64px;
     font-weight: 400;
@@ -7,8 +9,8 @@
     text-align: center;
     margin-bottom: 24px;
   }
-  
-  .khreson-list {
+
+  &__list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -20,25 +22,22 @@
     margin: 0 auto;
     margin-bottom: 115px;
   }
-  
-  .khreson-item {
+
+  &__item {
     width: 312px;
     line-height: 0;
   }
-  
-  .khreson-article {
-  }
-  
-  .khreson-photo {
+
+  &__photo {
     margin-bottom: 40px;
+
+    &:last-child,
+    &:only-child {
+      margin: 0;
+    }
   }
-  
-  .khreson-photo:last-child,
-  .khreson-photo:only-child {
-    margin: 0;
-  }
-  
-  .khreson-info {
+
+  &__info {
     color: $text-color;
     text-align: justify;
     font-size: 20px;
@@ -47,20 +46,25 @@
     border: 2px solid $accent-color;
     padding: 0 11px;
     line-height: normal;
+
+
   }
-  
-  .khreson-item:first-child .khreson-info {
+
+  &__item:first-child &__info {
     padding-bottom: 21px;
     padding-top: 21px;
   }
-  
-  .khreson-item:last-child .khreson-info {
+
+  &__item:last-child &__info {
     padding-bottom: 124px;
     padding-top: 68px;
   }
-  
-  .khreson-info:first-child {
+
+  &__info:first-child {
     margin-bottom: 40px;
     padding-bottom: 50px;
     padding-top: 64px;
   }
+
+
+}

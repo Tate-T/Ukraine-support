@@ -1,459 +1,554 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ukraine-Support</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ukraine-Support</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./styles/main.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-</head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#games">Ігри</a>
+            <ul class="header__submenu">
+              <li class="header__subitem">
+                <a href="" class="header__sublink">Морський бій</a>
+              </li>
+              <li class="header__subitem">
+                <a href="" class="header__sublink">Бандерогусь</a>
+              </li>
+              <li class="header__subitem">
+                <a href="" class="header__sublink">Висвободи острів</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#news">Новини</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#about">Про нас</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#amount">Допомога армії</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#support">Підтримувати</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#contact">Гаряча лінія</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!-- hero section -->
+      <section class="hero" id="support">
+        <div class="container">
+          <h1 class="hero__title">Ukraine Support</h1>
+          <h2 class="hero__subtitle">Foundation</h2>
+          <p class="hero__text">
+            Фонд» - громадська організація , заснована У 2022 році командою
+            волонтерів.. Цiлi фонду назбирати максимальну суму на допомогу ЗСУ
+            за мінімальний строк.
+          </p>
+          <button type="button" class="hero__button" data-modal-open>
+            Підтримати
+          </button>
+          <a href="#details" class="hero__link animate__heartBeat"
+            >Get started</a
+          >
+          <svg class="hero__icon" width="10" height="4">
+            <use href="./images/symbol-defs.svg#down-arrow"></use>
+          </svg>
+        </div>
+      </section>
+      <!-- about us section -->
+      <section id="about" class="about">
+        <div class="container">
+          <h2 class="about__title">
+            <span class="title__position">Про нас</span> Ukraine Support
+            Foundation
+          </h2>
+          <p class="about__text">
+            Фонд» - громадська організація , заснована У 2022 році командою
+            волонтерів.. Цiлi фонду назбирати максимальну суму на допомогу ЗСУ
+            за мінімальний строк.
+          </p>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <ul class="header__list">
-        <li class="header__item">
-          <a class="header__link" href="#games">Ігри</a>
-          <ul class="header__submenu">
-            <li class="header__subitem">
-              <a href="" class="header__sublink">Морський бій</a>
+          <ul class="about__list">
+            <li data-oleksiy class="about__item" data-aos="flip-right">
+              <img
+                class="about__photo"
+                src="./images/alex.jpg"
+                alt="Олексій Дорошенко"
+              />
+              <h3 class="about__name">Олексій Дорошенко</h3>
             </li>
-            <li class="header__subitem">
-              <a href="" class="header__sublink">Бандерогусь</a>
+            <li data-info class="about__item" data-aos="flip-right">
+              <h2 class="about__subtitle">ЗАСНОВНИКИ ФОНДУ</h2>
+              <img
+                class="about-photo"
+                src="./images/teodora.jpg"
+                alt="Теодора Левенко"
+              />
+              <h3 class="about__name">Теодора Левенко</h3>
             </li>
-            <li class="header__subitem">
-              <a href="" class="header__sublink">Висвободи острів</a>
+            <li data-taras-open class="about__item" data-aos="flip-right">
+              <img
+                class="about__photo"
+                src="./images/taras.jpg"
+                alt="Тарас Балiнськiй"
+              />
+              <h3 class="about__name">Тарас Балiнськiй</h3>
+            </li>
+            <li data-jesica class="about__item" data-aos="flip-right">
+              <img
+                class="about__photo"
+                src="./images/jesica.jpg"
+                alt="Джесіка Паркер"
+              />
+              <h3 class="about__name">Джесіка Паркер</h3>
             </li>
           </ul>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="#news">Новини</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="#about">Про нас</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="#amount">Допомога армії</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="#support">Підтримувати</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="#contact">Гаряча лінія</a>
-        </li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <!-- hero section -->
-    <section class="hero" id="support">
-      <div class="container">
-        <h1 class="hero__title">Ukraine Support</h1>
-        <h2 class="hero__subtitle">Foundation</h2>
-        <p class="hero__text">
-          Фонд» - громадська організація , заснована У 2022 році командою
-          волонтерів.. Цiлi фонду назбирати максимальну суму на допомогу ЗСУ
-          за мінімальний строк.
-        </p>
-        <button type="button" class="hero__button" data-modal-open>
-          Підтримати
-        </button>
-        <a href="#details" class="hero__link animate__heartBeat">Get started</a>
-        <svg class="hero__icon" width="10" height="4">
-          <use href="./images/symbol-defs.svg#down-arrow"></use>
-        </svg>
-      </div>
-    </section>
-    <!-- about us section -->
-    <section id="about" class="about">
-      <div class="container">
-        <h2 class="about__title">
-          <span class="title__position">Про нас</span> Ukraine Support
-          Foundation
-        </h2>
-        <p class="about__text">
-          Фонд» - громадська організація , заснована У 2022 році командою
-          волонтерів.. Цiлi фонду назбирати максимальну суму на допомогу ЗСУ
-          за мінімальний строк.
-        </p>
-
-        <ul class="about__list">
-          <li data-oleksiy class="about__item" data-aos="flip-right">
-            <img class="about__photo" src="./images/alex.jpg" alt="Олексій Дорошенко" />
-            <h3 class="about__name">Олексій Дорошенко</h3>
-          </li>
-          <li data-info class="about__item" data-aos="flip-right">
-            <h2 class="about__subtitle">ЗАСНОВНИКИ ФОНДУ</h2>
-            <img class="about-photo" src="./images/teodora.jpg" alt="Теодора Левенко" />
-            <h3 class="about__name">Теодора Левенко</h3>
-          </li>
-          <li data-taras-open class="about__item" data-aos="flip-right">
-            <img class="about__photo" src="./images/taras.jpg" alt="Тарас Балiнськiй" />
-            <h3 class="about__name">Тарас Балiнськiй</h3>
-          </li>
-          <li data-jesica class="about__item" data-aos="flip-right">
-            <img class="about__photo" src="./images/jesica.jpg" alt="Джесіка Паркер" />
-            <h3 class="about__name">Джесіка Паркер</h3>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!--city-->
-    <section class="city">
-      <div class="container">
-        <h2 class="city__title">Львів-МІСТО ГЕРОЙ</h2>
-        <p class="city__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-    </section>
-    <!-- information -->
-    <section class="information">
-      <div class="container information__container">
-        <img class="information__foto" src="./images/ukraine.jpg" alt="Ukraine" data-aos="fade-right"
-          data-aos-duration="3000" />
-        <div class="information__wrap">
-          <h2 class="information__info">Інформація про збір</h2>
-          <p class="information__description">
-            Зараз наша велика і дружна команда намагається назбирати на
-            байрактари,адже українська армія їх так потребує.Потрібно
-            назбирати 50 млн долларів.За допомогою нашої команди ми вже
-            назбирали половину тож приєднуйся й допоможи армії виграти.
-          </p>
-          <button class="information__btn" type="button">Підтримати</button>
         </div>
-      </div>
-    </section>
-    <section class="city" id="amount">
-      <div class="container">
-        <h2 class="city__title">Харків-МІСТО ГЕРОЙ</h2>
-        <p class="city__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-    </section>
-    <section class="support">
-      <div class="container">
-        <h2 class="support__title">Підтримай армію</h2>
-        <ul class="support__list">
-          <li class="support__item">
-            <article class="support__art">
-              <img src="./images/support-img1.webp" alt="Військова допомога" class="support__img" />
-              <div class="support__overlay">
-                <p class="support__info">Військова допомога</p>
-              </div>
-            </article>
-          </li>
-          <li class="support__item">
-            <article class="support__art">
-              <img src="./images/support-img2.webp" alt="Гуманітарна допомога" class="support__img" />
-              <div class="support__overlay">
-                <p class="support__info">Гуманітарна допомога</p>
-              </div>
-            </article>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="city" id="games">
-      <div class="container">
-        <h2 class="city__title">Київ-МІСТО ГЕРОЙ</h2>
-        <p class="city__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-    </section>
-    <section class="games">
-      <div class="container">
-        <h2 class="games__title">Ігри</h2>
-        <svg class="games__arrow" width="30.484px" height="29.432px">
-          <use href="./images/symbol-defs.svg#arrow"></use>
-        </svg>
-        <ul class="games__list">
-          <li class="games__item">
-            <article class="games__article">
-              <img class="games__photo" src="./images/gus.png" alt="Бандерогусь" />
-              <p class="games__desc">Бандерогусь</p>
-            </article>
-          </li>
-          <li class="games__item">
-            <article class="games__article">
-              <img class="games__photo" src="./images/snakeisland.jpg" alt="Snake Island" />
-              <p class="games__desc">Висвободи острів Зміїний</p>
-            </article>
-          </li>
-          <li class="games__item">
-            <article class="games__article">
-              <img class="games__photo" src="./images/seefight.webp" alt="Морський бій" />
-              <p class="games__desc">Морський бій</p>
-            </article>
-          </li>
-        </ul>
-        <svg class="games__arrow" width="30.484px" height="29.432px">
-          <use href="./images/symbol-defs.svg#arrow"></use>
-        </svg>
-        <h2 class="games__product">Купи товар і допоможи ЗСУ</h2>
-        <svg class="games__arrow games__icon" width="30.484px" height="29.432px">
-          <use href="./images/symbol-defs.svg#arrow"></use>
-        </svg>
-        <ul class="games__goods">
-          <li class="games__good">
-            <img class="games__img" src="./images/cap.webp" alt="Допоможе ЗСУ" />
-          </li>
-          <li class="games__good">
-            <img class="games__img" src="./images/stikers.png" alt="Стікерпак" />
-          </li>
-          <li class="games__good">
-            <img class="games__img" src="./images/picture.png" alt="наклейка" />
-          </li>
-        </ul>
-        <svg class="games__arrow games__icon" width="30.484px" height="29.432px">
-          <use href="./images/symbol-defs.svg#arrow"></use>
-        </svg>
-      </div>
-    </section>
-    <section class="city" id="news">
-      <div class="container">
-        <h2 class="city__title">Херсон-МІСТО ГЕРОЙ</h2>
-        <p class="city__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-    </section>
-    <section class="kherson" id="news">
-      <div class="container">
-        <h2 class="khreson-achievement">Наші досягнення</h2>
-        <ul class="khreson-list">
-          <li class="khreson-item">
-            <article class="khreson-article">
-              <img class="khreson-photo" src="./images/flags.jpg" alt="Flags" />
-              <p class="khreson-info">
-                За допомогою наших партнерів ,волонтерів, і бажаючих назбирали
-                30 млн на гуманітарну допомогу ЗСУ.
-              </p>
-            </article>
-          </li>
-          <li class="khreson-item">
-            <article class="khreson-article">
-              <img src="./images/plane-img.png" alt="a plane" class="khreson-photo" />
-            </article>
-          </li>
-          <li class="khreson-item">
-            <article class="khreson-article">
-              <p class="khreson-info">
-                Спільно з нашими партнерами ми створили програму “We all
-                peopl” який захопивУкраїну, Польщу, США, Німеччину, Чехію,
-                Канаду, Туреччину, Італію та Великобританію
-              </p>
-              <img class="khreson-photo" src="./images/support.jpg" alt="Support" />
-            </article>
-          </li>
-          <li class="khreson-item">
-            <article class="khreson-article">
-              <img class="khreson-photo" src="./images/helicopter.jpg" alt="Helicopter" />
-              <p class="khreson-info">
-                Спільно з нашими партнерами ми створили програму “We all
-                peopl” який захопивУкраїну, Польщу, США, Німеччину, Чехію,
-                Канаду, Туреччину, Італію та Великобританію
-              </p>
-            </article>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="city">
-      <div class="container">
-        <h2 class="city-title">Маріуполь-МІСТО ГЕРОЙ</h2>
-        <p class="city-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-      </div>
-    </section>
-    <section class="mariupol">
-      <div class="container">
-        <h2 class="mariupol-details">Реквізити з фонду</h2>
-        <div class="mariupol-info" id="details">
-          <p class="mariupol-company">Company Name</p>
-          <p class="mariupol-desc">ГО ФОНД USF</p>
-          <p class="mariupol-company">IBAN Code</p>
-          <p class="mariupol-desc">UA313052990000026002036802057</p>
-          <p class="mariupol-company">Name of the bank</p>
-          <p class="mariupol-desc">
-            JSC CB "PRIVATBANK", 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE
-          </p>
-          <p class="mariupol-company">Bank SWIFT Code</p>
-          <p class="mariupol-desc">PBANUA2X</p>
-          <p class="mariupol-company">Company address</p>
-          <p class="mariupol-desc">
-            Ukraine, 01033, Kyiv, Saksaganskogo str, 27B, office 43
+      </section>
+      <!--city-->
+      <section class="city">
+        <div class="container">
+          <h2 class="city__title">Львів-МІСТО ГЕРОЙ</h2>
+          <p class="city__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
-      </div>
-    </section>
-  </main>
-  <footer class="footer" id="contact">
-    <div class="container footer-container">
-      <h2 class="footer-title">Разом до перемоги!</h2>
-      <ul class="footer-list">
-        <li class="footer-item">
-          <a class="footer-link" href="https://www.instagram.com/">
-            <svg class="footer-icon">
-              <use href="./images/symbol-defs.svg#instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-item">
-          <a class="footer-link" href="https://uk-ua.facebook.com/">
-            <svg class="footer-icon">
-              <use href="./images/symbol-defs.svg#facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-item">
-          <a class="footer-link" href="https://twitter.com/">
-            <svg class="footer-icon">
-              <use href="./images/symbol-defs.svg#twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-item">
-          <a class="footer-link" href="https://pinterest.com/">
-            <svg class="footer-icon">
-              <use href="./images/symbol-defs.svg#pinterest"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-  <!-- support army -->
-  <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-      <form action="">
-        <button type="button" class="modal-close" data-modal-close>
-          <svg class="modal-icon" width="14" height="14">
-            <use href="./images/symbol-defs.svg#cross"></use>
+      </section>
+      <!-- information -->
+      <section class="information">
+        <div class="container information__container">
+          <img
+            class="information__foto"
+            src="./images/ukraine.jpg"
+            alt="Ukraine"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          />
+          <div class="information__wrap">
+            <h2 class="information__info">Інформація про збір</h2>
+            <p class="information__description">
+              Зараз наша велика і дружна команда намагається назбирати на
+              байрактари,адже українська армія їх так потребує.Потрібно
+              назбирати 50 млн долларів.За допомогою нашої команди ми вже
+              назбирали половину тож приєднуйся й допоможи армії виграти.
+            </p>
+            <button class="information__btn" type="button">Підтримати</button>
+          </div>
+        </div>
+      </section>
+      <section class="city" id="amount">
+        <div class="container">
+          <h2 class="city__title">Харків-МІСТО ГЕРОЙ</h2>
+          <p class="city__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </section>
+      <section class="support">
+        <div class="container">
+          <h2 class="support__title">Підтримай армію</h2>
+          <ul class="support__list">
+            <li class="support__item">
+              <article class="support__art">
+                <img
+                  src="./images/support-img1.webp"
+                  alt="Військова допомога"
+                  class="support__img"
+                />
+                <div class="support__overlay">
+                  <p class="support__info">Військова допомога</p>
+                </div>
+              </article>
+            </li>
+            <li class="support__item">
+              <article class="support__art">
+                <img
+                  src="./images/support-img2.webp"
+                  alt="Гуманітарна допомога"
+                  class="support__img"
+                />
+                <div class="support__overlay">
+                  <p class="support__info">Гуманітарна допомога</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="city" id="games">
+        <div class="container">
+          <h2 class="city__title">Київ-МІСТО ГЕРОЙ</h2>
+          <p class="city__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </section>
+      <section class="games">
+        <div class="container">
+          <h2 class="games__title">Ігри</h2>
+          <svg class="games__arrow" width="30.484px" height="29.432px">
+            <use href="./images/symbol-defs.svg#arrow"></use>
           </svg>
-        </button>
-        <h3 class="modal-title">Підтримай українську армію сьогодні!</h3>
-        <ul class="modal-list">
-          <li class="modal-item">
-            <label for="#name" class="modal-name"> Ім’я </label>
-            <input type="text" id="name" class="modal-input" required />
+          <ul class="games__list">
+            <li class="games__item">
+              <article class="games__article">
+                <img
+                  class="games__photo"
+                  src="./images/gus.png"
+                  alt="Бандерогусь"
+                />
+                <p class="games__desc">Бандерогусь</p>
+              </article>
+            </li>
+            <li class="games__item">
+              <article class="games__article">
+                <img
+                  class="games__photo"
+                  src="./images/snakeisland.jpg"
+                  alt="Snake Island"
+                />
+                <p class="games__desc">Висвободи острів Зміїний</p>
+              </article>
+            </li>
+            <li class="games__item">
+              <article class="games__article">
+                <img
+                  class="games__photo"
+                  src="./images/seefight.webp"
+                  alt="Морський бій"
+                />
+                <p class="games__desc">Морський бій</p>
+              </article>
+            </li>
+          </ul>
+          <svg class="games__arrow" width="30.484px" height="29.432px">
+            <use href="./images/symbol-defs.svg#arrow"></use>
+          </svg>
+          <h2 class="games__product">Купи товар і допоможи ЗСУ</h2>
+          <svg
+            class="games__arrow games__icon"
+            width="30.484px"
+            height="29.432px"
+          >
+            <use href="./images/symbol-defs.svg#arrow"></use>
+          </svg>
+          <ul class="games__goods">
+            <li class="games__good">
+              <img
+                class="games__img"
+                src="./images/cap.webp"
+                alt="Допоможе ЗСУ"
+              />
+            </li>
+            <li class="games__good">
+              <img
+                class="games__img"
+                src="./images/stikers.png"
+                alt="Стікерпак"
+              />
+            </li>
+            <li class="games__good">
+              <img
+                class="games__img"
+                src="./images/picture.png"
+                alt="наклейка"
+              />
+            </li>
+          </ul>
+          <svg
+            class="games__arrow games__icon"
+            width="30.484px"
+            height="29.432px"
+          >
+            <use href="./images/symbol-defs.svg#arrow"></use>
+          </svg>
+        </div>
+      </section>
+      <section class="city" id="news">
+        <div class="container">
+          <h2 class="city__title">Херсон-МІСТО ГЕРОЙ</h2>
+          <p class="city__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </section>
+      <section class="achievement" id="news">
+        <div class="container">
+          <h2 class="achievement__title">Наші досягнення</h2>
+          <ul class="achievement__list">
+            <li class="achievement__item">
+              <article class="achievement__article">
+                <img
+                  class="achievement__photo"
+                  src="./images/flags.jpg"
+                  alt="Flags"
+                />
+                <p class="achievement__info">
+                  За допомогою наших партнерів ,волонтерів, і бажаючих назбирали
+                  30 млн на гуманітарну допомогу ЗСУ.
+                </p>
+              </article>
+            </li>
+            <li class="achievement__item">
+              <article class="achievement__article">
+                <img
+                  src="./images/plane-img.png"
+                  alt="a plane"
+                  class="achievement__photo"
+                />
+              </article>
+            </li>
+            <li class="achievement__item">
+              <article class="achievement__article">
+                <p class="achievement__info">
+                  Спільно з нашими партнерами ми створили програму “We all
+                  peopl” який захопивУкраїну, Польщу, США, Німеччину, Чехію,
+                  Канаду, Туреччину, Італію та Великобританію
+                </p>
+                <img
+                  class="achievement__photo"
+                  src="./images/support.jpg"
+                  alt="Support"
+                />
+              </article>
+            </li>
+            <li class="achievement__item">
+              <article class="achievement__article">
+                <img
+                  class="achievement__photo"
+                  src="./images/helicopter.jpg"
+                  alt="Helicopter"
+                />
+                <p class="achievement__info">
+                  Спільно з нашими партнерами ми створили програму “We all
+                  peopl” який захопивУкраїну, Польщу, США, Німеччину, Чехію,
+                  Канаду, Туреччину, Італію та Великобританію
+                </p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="city">
+        <div class="container">
+          <h2 class="city__title">Маріуполь-МІСТО ГЕРОЙ</h2>
+          <p class="city__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </section>
+      <section class="mariupol">
+        <div class="container">
+          <h2 class="mariupol-details">Реквізити з фонду</h2>
+          <div class="mariupol-info" id="details">
+            <p class="mariupol-company">Company Name</p>
+            <p class="mariupol-desc">ГО ФОНД USF</p>
+            <p class="mariupol-company">IBAN Code</p>
+            <p class="mariupol-desc">UA313052990000026002036802057</p>
+            <p class="mariupol-company">Name of the bank</p>
+            <p class="mariupol-desc">
+              JSC CB "PRIVATBANK", 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE
+            </p>
+            <p class="mariupol-company">Bank SWIFT Code</p>
+            <p class="mariupol-desc">PBANUA2X</p>
+            <p class="mariupol-company">Company address</p>
+            <p class="mariupol-desc">
+              Ukraine, 01033, Kyiv, Saksaganskogo str, 27B, office 43
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contact">
+      <div class="container footer-container">
+        <h2 class="footer-title">Разом до перемоги!</h2>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a class="footer-link" href="https://www.instagram.com/">
+              <svg class="footer-icon">
+                <use href="./images/symbol-defs.svg#instagram"></use>
+              </svg>
+            </a>
           </li>
-          <li class="modal-item">
-            <label for="#email" class="modal-name"> Email </label>
-            <input type="email" id="email" class="modal-input" required />
+          <li class="footer-item">
+            <a class="footer-link" href="https://uk-ua.facebook.com/">
+              <svg class="footer-icon">
+                <use href="./images/symbol-defs.svg#facebook"></use>
+              </svg>
+            </a>
           </li>
-          <li class="modal-item">
-            <label for="#adress" class="modal-name"> Адресс </label>
-            <input type="text" id="adress" class="modal-input" required />
+          <li class="footer-item">
+            <a class="footer-link" href="https://twitter.com/">
+              <svg class="footer-icon">
+                <use href="./images/symbol-defs.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-link" href="https://pinterest.com/">
+              <svg class="footer-icon">
+                <use href="./images/symbol-defs.svg#pinterest"></use>
+              </svg>
+            </a>
           </li>
         </ul>
-        <button type="submit" class="modal-btn">Підтримати</button>
-      </form>
-    </div>
-  </div>
-  <div data-photo class="backdrop is-hidden">
-    <div class="modal-people">
-      <div class="modal-container">
-        <img src="./images/teodora.webp" alt="Дівчина" class="modal-photo" />
-        <div class="modal-text-container">
-          <h2 class="modal-people-title">Теодора Левченко</h2>
-          <p class="mobal-text">
-            Добрий день!Мене звати Теодора Левченко.Мені 23 роки.І я є
-            частиною чудової команди яка працює над фондом який допомагає
-            ЗСУ.Раніше я працювала у сфері фінансів.Тому зараз займаюсь
-            переказами на ЗСУ.
-          </p>
-          <button data-info-close class="modal-people-close" type="button">
-            <svg class="modal-info-close" width="14" height="14">
+      </div>
+    </footer>
+    <!-- support army -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <form action="">
+          <button type="button" class="modal-close" data-modal-close>
+            <svg class="modal-icon" width="14" height="14">
               <use href="./images/symbol-defs.svg#cross"></use>
             </svg>
           </button>
+          <h3 class="modal-title">Підтримай українську армію сьогодні!</h3>
+          <ul class="modal-list">
+            <li class="modal-item">
+              <label for="#name" class="modal-name"> Ім’я </label>
+              <input type="text" id="name" class="modal-input" required />
+            </li>
+            <li class="modal-item">
+              <label for="#email" class="modal-name"> Email </label>
+              <input type="email" id="email" class="modal-input" required />
+            </li>
+            <li class="modal-item">
+              <label for="#adress" class="modal-name"> Адресс </label>
+              <input type="text" id="adress" class="modal-input" required />
+            </li>
+          </ul>
+          <button type="submit" class="modal-btn">Підтримати</button>
+        </form>
+      </div>
+    </div>
+    <div data-photo class="backdrop is-hidden">
+      <div class="modal-people">
+        <div class="modal-container">
+          <img src="./images/teodora.webp" alt="Дівчина" class="modal-photo" />
+          <div class="modal-text-container">
+            <h2 class="modal-people-title">Теодора Левченко</h2>
+            <p class="mobal-text">
+              Добрий день!Мене звати Теодора Левченко.Мені 23 роки.І я є
+              частиною чудової команди яка працює над фондом який допомагає
+              ЗСУ.Раніше я працювала у сфері фінансів.Тому зараз займаюсь
+              переказами на ЗСУ.
+            </p>
+            <button data-info-close class="modal-people-close" type="button">
+              <svg class="modal-info-close" width="14" height="14">
+                <use href="./images/symbol-defs.svg#cross"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div data-photo-oleksiy class="backdrop is-hidden">
-    <div class="modal-people">
-      <div class="modal-container">
-        <img src="./images/oleksiy.webp" alt="oleksiy" class="modal-photo" />
-        <div class="modal-text-container">
-          <h2 class="modal-people-title">Олексій Дорошенко</h2>
-          <p class="mobal-text">
-            Добрий день!Мене звати Олексій Дорошенко.Мені 23 роки.І я є
-            частиною чудової команди яка працює над фондом який допомагає
-            ЗСУ.Раніше я працював у сфері фінансів.Тому зараз займаюсь
-            переказами на ЗСУ.
-          </p>
-          <button data-oleksiy-close class="modal-people-close" type="button">
-            <svg class="modal-info-close" width="14" height="14">
-              <use href="./images/symbol-defs.svg#cross"></use>
-            </svg>
-          </button>
+    <div data-photo-oleksiy class="backdrop is-hidden">
+      <div class="modal-people">
+        <div class="modal-container">
+          <img src="./images/oleksiy.webp" alt="oleksiy" class="modal-photo" />
+          <div class="modal-text-container">
+            <h2 class="modal-people-title">Олексій Дорошенко</h2>
+            <p class="mobal-text">
+              Добрий день!Мене звати Олексій Дорошенко.Мені 23 роки.І я є
+              частиною чудової команди яка працює над фондом який допомагає
+              ЗСУ.Раніше я працював у сфері фінансів.Тому зараз займаюсь
+              переказами на ЗСУ.
+            </p>
+            <button data-oleksiy-close class="modal-people-close" type="button">
+              <svg class="modal-info-close" width="14" height="14">
+                <use href="./images/symbol-defs.svg#cross"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div data-photo-taras class="backdrop is-hidden">
-    <div class="modal-people">
-      <div class="modal-container">
-        <img src="./images/taras-modal.webp" alt="Тарас" class="modal-photo" />
-        <div class="modal-text-container">
-          <h2 class="modal-people-title">Тарас Балінській</h2>
-          <p class="mobal-text">
-            Добрий день!Мене звати Тарас Балінській.Мені 25 роки.І я є
-            частиною чудової команди яка працює над фондом який допомагає
-            ЗСУ.Раніше я працював у сфері фінансів.Тому зараз займаюсь
-            переказами на ЗСУ.
-          </p>
-          <button data-taras-close class="modal-people-close" type="button">
-            <svg class="modal-info-close" width="14" height="14">
-              <use href="./images/symbol-defs.svg#cross"></use>
-            </svg>
-          </button>
+    <div data-photo-taras class="backdrop is-hidden">
+      <div class="modal-people">
+        <div class="modal-container">
+          <img
+            src="./images/taras-modal.webp"
+            alt="Тарас"
+            class="modal-photo"
+          />
+          <div class="modal-text-container">
+            <h2 class="modal-people-title">Тарас Балінській</h2>
+            <p class="mobal-text">
+              Добрий день!Мене звати Тарас Балінській.Мені 25 роки.І я є
+              частиною чудової команди яка працює над фондом який допомагає
+              ЗСУ.Раніше я працював у сфері фінансів.Тому зараз займаюсь
+              переказами на ЗСУ.
+            </p>
+            <button data-taras-close class="modal-people-close" type="button">
+              <svg class="modal-info-close" width="14" height="14">
+                <use href="./images/symbol-defs.svg#cross"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div data-photo-jesica class="backdrop is-hidden">
-    <div class="modal-people">
-      <div class="modal-container">
-        <img src="./images/jesica-modal.webp" alt="Джесіка" class="modal-photo" />
-        <div class="modal-text-container">
-          <h2 class="modal-people-title">Джесіка Паркер</h2>
-          <p class="mobal-text">
-            Добрий день!Мене звати Джесіка Паркер.Мені 25 роки.І я є частиною
-            чудової команди яка працює над фондом який допомагає ЗСУ.Раніше я
-            працювавала у сфері фінансів.Тому зараз займаюсь переказами на
-            ЗСУ.
-          </p>
-          <button data-jesica-close class="modal-people-close" type="button">
-            <svg class="modal-info-close" width="14" height="14">
-              <use href="./images/symbol-defs.svg#cross"></use>
-            </svg>
-          </button>
+    <div data-photo-jesica class="backdrop is-hidden">
+      <div class="modal-people">
+        <div class="modal-container">
+          <img
+            src="./images/jesica-modal.webp"
+            alt="Джесіка"
+            class="modal-photo"
+          />
+          <div class="modal-text-container">
+            <h2 class="modal-people-title">Джесіка Паркер</h2>
+            <p class="mobal-text">
+              Добрий день!Мене звати Джесіка Паркер.Мені 25 роки.І я є частиною
+              чудової команди яка працює над фондом який допомагає ЗСУ.Раніше я
+              працювавала у сфері фінансів.Тому зараз займаюсь переказами на
+              ЗСУ.
+            </p>
+            <button data-jesica-close class="modal-people-close" type="button">
+              <svg class="modal-info-close" width="14" height="14">
+                <use href="./images/symbol-defs.svg#cross"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- thanks -->
-  <!-- <div class="backdrop">
+    <!-- thanks -->
+    <!-- <div class="backdrop">
       <div class="modal">
         <form action="">
           <button type="button" class="modal-close" data-modal-close>
@@ -466,20 +561,19 @@
         </form>
       </div>
     </div> -->
-  <a href="#support" class="scroll-top">
-    <svg class="scroll-icon" width="35" height="30">
-      <use href="./images/symbol-defs.svg#arrow-down"></use>
-    </svg>
-  </a>
-  <script src="./js/modal.js" type="module"></script>
-  <script src="./js/modal-teodora.js" type="module"></script>
-  <script src="./js/modal-oleksiy.js" type="module"></script>
-  <script src="./js/modal-taras.js" type="module"></script>
-  <script src="./js/modal-jesica.js" type="module"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
-
+    <a href="#support" class="scroll-top">
+      <svg class="scroll-icon" width="35" height="30">
+        <use href="./images/symbol-defs.svg#arrow-down"></use>
+      </svg>
+    </a>
+    <script src="./js/modal.js" type="module"></script>
+    <script src="./js/modal-teodora.js" type="module"></script>
+    <script src="./js/modal-oleksiy.js" type="module"></script>
+    <script src="./js/modal-taras.js" type="module"></script>
+    <script src="./js/modal-jesica.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

@@ -522,7 +522,10 @@ body {
   height: 300px;
 }
 
-.khreson-achievement {
+.achievement {
+  background-color: #050404;
+}
+.achievement__title {
   color: #ffd76e;
   font-size: 64px;
   font-weight: 400;
@@ -530,8 +533,7 @@ body {
   text-align: center;
   margin-bottom: 24px;
 }
-
-.khreson-list {
+.achievement__list {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -543,22 +545,17 @@ body {
   margin: 0 auto;
   margin-bottom: 115px;
 }
-
-.khreson-item {
+.achievement__item {
   width: 312px;
   line-height: 0;
 }
-
-.khreson-photo {
+.achievement__photo {
   margin-bottom: 40px;
 }
-
-.khreson-photo:last-child,
-.khreson-photo:only-child {
+.achievement__photo:last-child, .achievement__photo:only-child {
   margin: 0;
 }
-
-.khreson-info {
+.achievement__info {
   color: #ffffff;
   text-align: justify;
   font-size: 20px;
@@ -568,18 +565,15 @@ body {
   padding: 0 11px;
   line-height: normal;
 }
-
-.khreson-item:first-child .khreson-info {
+.achievement__item:first-child .achievement__info {
   padding-bottom: 21px;
   padding-top: 21px;
 }
-
-.khreson-item:last-child .khreson-info {
+.achievement__item:last-child .achievement__info {
   padding-bottom: 124px;
   padding-top: 68px;
 }
-
-.khreson-info:first-child {
+.achievement__info:first-child {
   margin-bottom: 40px;
   padding-bottom: 50px;
   padding-top: 64px;
