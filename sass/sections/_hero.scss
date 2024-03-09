@@ -44,24 +44,8 @@
   }
 
   &__button {
-    color: $secondary-text;
-    background-color: $accent-color;
-    font-size: 24px;
-    font-weight: 400;
     margin-bottom: 84px;
-    display: block;
-    padding: 15px 31px 16px;
-    border-radius: 10px;
-    transition-property: box-shadow, color;
-    transition-duration: 450ms;
-    animation-name: button-move;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-
-    &:hover {
-      box-shadow: 0 0 10px 5px $accent-color;
-      color: $text-color;
-    }
+    @extend %button-styles
   }
 
   &__link {

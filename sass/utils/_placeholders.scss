@@ -1,0 +1,20 @@
+%button-styles {
+    color: $secondary-text;
+    background-color: $accent-color;
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+    padding: 15px 31px 16px;
+    border-radius: 10px;
+    transition-property: box-shadow, color;
+    transition-duration: 450ms;
+    animation-name: button-move;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    color: $text-color;
+    
+    &:hover {
+        box-shadow: 0 0 10px 5px $accent-color;
+  
+      }
+}

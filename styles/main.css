@@ -28,6 +28,25 @@ img {
   max-width: 100%;
 }
 
+.information__btn, .hero__button {
+  color: #000000;
+  background-color: #ffd76e;
+  font-size: 24px;
+  font-weight: 400;
+  display: block;
+  padding: 15px 31px 16px;
+  border-radius: 10px;
+  transition-property: box-shadow, color;
+  transition-duration: 450ms;
+  animation-name: button-move;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  color: #ffffff;
+}
+.information__btn:hover, .hero__button:hover {
+  box-shadow: 0 0 10px 5px #ffd76e;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -201,23 +220,7 @@ body {
   animation-timing-function: ease-in-out;
 }
 .hero__button {
-  color: #000000;
-  background-color: #ffd76e;
-  font-size: 24px;
-  font-weight: 400;
   margin-bottom: 84px;
-  display: block;
-  padding: 15px 31px 16px;
-  border-radius: 10px;
-  transition-property: box-shadow, color;
-  transition-duration: 450ms;
-  animation-name: button-move;
-  animation-duration: 3s;
-  animation-timing-function: ease-in-out;
-}
-.hero__button:hover {
-  box-shadow: 0 0 10px 5px #ffd76e;
-  color: #ffffff;
 }
 .hero__link {
   color: rgb(255, 255, 255);
@@ -401,15 +404,8 @@ body {
   margin-left: auto;
 }
 .information__btn {
-  color: #000000;
-  font-size: 24px;
-  font-weight: 400;
-  border-radius: 10px;
-  background: #ffd76e;
   margin-top: 125px;
   margin-left: auto;
-  display: block;
-  padding: 15px 31px 16px;
 }
 
 .support {

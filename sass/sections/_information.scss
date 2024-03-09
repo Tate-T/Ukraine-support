@@ -35,14 +35,8 @@
     }
 
     &__btn {
-        color: $secondary-text;
-        font-size: 24px;
-        font-weight: 400;
-        border-radius: 10px;
-        background: $accent-color;
         margin-top: 125px;
         margin-left: auto;
-        display: block;
-        padding: 15px 31px 16px;
+        @extend %button-styles
     }
 }

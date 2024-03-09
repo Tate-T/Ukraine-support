@@ -1,5 +1,6 @@
 @import "./base/reset";
-@import "./base/vars";
+@import "./utils/vars";
+@import "./utils/placeholders";
 @import "./base/common";
 @import "./base/container";
 
@@ -16,3 +17,4 @@
 @import "./sections/fond";
 @import "./sections/footer";
 @import "./sections/modal";
+
