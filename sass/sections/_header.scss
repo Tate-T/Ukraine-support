@@ -15,8 +15,7 @@
     box-shadow: 0px 4px 16px 10px rgba(234, 232, 232, 0.373);
 
     &__list {
-      display: flex;
-      justify-content: end;
+      @include flexbox($align: flex-start, $justify: end);
       gap: 21px;
     }
     &__item {

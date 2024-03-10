@@ -107,8 +107,9 @@ body {
   width: 75px;
   height: 75px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   border-radius: 50%;
   position: fixed;
   bottom: 50px;
@@ -144,6 +145,8 @@ body {
 .header__list {
   display: flex;
   justify-content: end;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 21px;
 }
 .header__item {
@@ -352,8 +355,10 @@ body {
 }
 .about__list {
   display: flex;
-  gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
+  gap: 20px;
   max-width: 892px;
   margin-left: auto;
   margin-right: auto;
@@ -381,8 +386,10 @@ body {
 }
 .information__container {
   display: flex;
-  gap: 132px;
+  justify-content: flex-start;
   align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 132px;
 }
 .information__foto {
   width: 396px;
@@ -423,6 +430,8 @@ body {
 .support__list {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 222px;
 }
 .support__info {
@@ -498,8 +507,10 @@ body {
 }
 .games__list {
   display: flex;
-  gap: 70px;
   justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 70px;
 }
 .games__photo {
   width: 300px;
@@ -523,6 +534,8 @@ body {
 .games__goods {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 65px;
 }
 .games__img {
@@ -543,11 +556,11 @@ body {
 }
 .achievement__list {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-height: 630px;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: 630px;
   max-width: 1018px;
   gap: 40px;
   margin: 0 auto;
@@ -638,9 +651,10 @@ body {
 }
 .footer__container {
   display: flex;
-  align-items: center;
-  gap: 267px;
   justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 267px;
 }
 .footer__link:hover .footer__icon {
   fill: #ffffff;
@@ -712,6 +726,9 @@ body {
 
 .modal-list {
   display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
   flex-direction: column;
   gap: 14px;
   margin-bottom: 14px;

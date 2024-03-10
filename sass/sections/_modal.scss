@@ -59,7 +59,7 @@
   }
   
   .modal-list {
-    display: flex;
+    @include flexbox($align: flex-start, $justify: flex-start);
     flex-direction: column;
     gap: 14px;
     margin-bottom: 14px;

@@ -3,9 +3,7 @@
     background-color: $accent-color;
     width: 75px;
     height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexbox();
     border-radius: 50%;
     position: fixed;
     bottom: 50px;

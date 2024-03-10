@@ -11,12 +11,9 @@
   }
 
   &__list {
-    display: flex;
+    @include flexbox();
     flex-direction: column;
-    flex-wrap: wrap;
     max-height: 630px;
-    align-items: center;
-    justify-content: center;
     max-width: 1018px;
     gap: 40px;
     margin: 0 auto;

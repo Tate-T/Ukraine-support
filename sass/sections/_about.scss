@@ -50,9 +50,8 @@
   }
 
   &__list {
-    display: flex;
+    @include flexbox($align: flex-start, $justify: flex-start);
     gap: 20px;
-    flex-wrap: wrap;
     max-width: 892px;
     margin-left: auto;
     margin-right: auto;

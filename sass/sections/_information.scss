@@ -4,9 +4,8 @@
 
 
     &__container {
-        display: flex;
+        @include flexbox($align: flex-end, $justify: flex-start);
         gap: 132px;
-        align-items: flex-end;
     }
 
     &__foto {

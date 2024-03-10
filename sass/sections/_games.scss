@@ -42,9 +42,8 @@
   }
   
   &__list {
-    display: flex;
+    @include flexbox($align: flex-start);
     gap: 70px;
-    justify-content: center;
   }
   
   &__photo {
@@ -70,8 +69,7 @@
   }
   
   &__goods {
-    display: flex;
-    justify-content: center;
+    @include flexbox($align: flex-start);
     gap: 65px;
   }
   

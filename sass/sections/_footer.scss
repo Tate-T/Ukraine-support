@@ -15,10 +15,8 @@
   }
 
   &__container {
-    display: flex;
-    align-items: center;
+    @include flexbox($justify: flex-end);
     gap: 267px;
-    justify-content: flex-end;
   }
 
   &__link:hover &__icon {
