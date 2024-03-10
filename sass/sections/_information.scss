@@ -18,17 +18,13 @@
     }
 
     &__info {
-        color: $accent-color;
-        font-size: 64px;
-        font-weight: 400;
+        @include text($size: 64px, $color: $accent-color);
         margin-bottom: 46px;
     }
 
     &__description {
-        color: $text-color;
+        @include text();
         text-align: justify;
-        font-size: 24px;
-        font-weight: 400;
         max-width: 559px;
         margin-left: auto;
     }

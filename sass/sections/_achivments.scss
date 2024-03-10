@@ -2,9 +2,7 @@
   background-color: $background-color;
 
   &__title {
-    color: $accent-color;
-    font-size: 64px;
-    font-weight: 400;
+    @include text($size: 64px, $color: $accent-color);
     margin-top: 133px;
     text-align: center;
     margin-bottom: 24px;
@@ -35,16 +33,12 @@
   }
 
   &__info {
-    color: $text-color;
+    @include text();
     text-align: justify;
-    font-size: 20px;
-    font-weight: 400;
     border-radius: 8px;
     border: 2px solid $accent-color;
     padding: 0 11px;
     line-height: normal;
-
-
   }
 
   &__item:first-child &__info {

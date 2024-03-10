@@ -10,7 +10,7 @@
   overflow: hidden;
 
   &__title {
-    color: $text-color;
+    @include text($size: 128px);
     font-size: 128px;
     font-weight: 400;
     margin-bottom: 6px;
@@ -21,9 +21,7 @@
   }
 
   &__subtitle {
-    color: $text-color;
-    font-size: 64px;
-    font-weight: 400;
+    @include text($size: 64px);
     margin-bottom: 30px;
     animation-name: subtitle-move;
     animation-duration: 3s;
@@ -31,11 +29,9 @@
   }
 
   &__text {
+    @include text();
     max-width: 460px;
-    color: $text-color;
     text-align: justify;
-    font-size: 24px;
-    font-weight: 400;
     margin-bottom: 48px;
     animation-name: text-move;
     animation-duration: 3s;
@@ -49,11 +45,9 @@
   }
 
   &__link {
-    color: rgba(255, 255, 255, 1);
-    font-size: 24px;
     font-style: normal;
-    font-weight: 100;
     line-height: normal;
+    @include text($weight: 100);
     display: block;
     text-align: center;
   }

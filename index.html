@@ -431,44 +431,50 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <form action="">
-          <button type="button" class="modal-close" data-modal-close>
-            <svg class="modal-icon" width="14" height="14">
+          <button type="button" class="modal__close" data-modal-close>
+            <svg class="modal__icon" width="14" height="14">
               <use href="./images/symbol-defs.svg#cross"></use>
             </svg>
           </button>
-          <h3 class="modal-title">Підтримай українську армію сьогодні!</h3>
-          <ul class="modal-list">
-            <li class="modal-item">
-              <label for="#name" class="modal-name"> Ім’я </label>
-              <input type="text" id="name" class="modal-input" required />
+          <h3 class="modal__title">Підтримай українську армію сьогодні!</h3>
+          <ul class="modal__list">
+            <li class="modal__item">
+              <label for="#name" class="modal__name"> Ім’я </label>
+              <input type="text" id="name" class="modal__input" required />
             </li>
-            <li class="modal-item">
-              <label for="#email" class="modal-name"> Email </label>
-              <input type="email" id="email" class="modal-input" required />
+            <li class="modal__item">
+              <label for="#email" class="modal__name"> Email </label>
+              <input type="email" id="email" class="modal__input" required />
             </li>
-            <li class="modal-item">
-              <label for="#adress" class="modal-name"> Адресс </label>
-              <input type="text" id="adress" class="modal-input" required />
+            <li class="modal__item">
+              <label for="#adress" class="modal__name"> Адресс </label>
+              <input type="text" id="adress" class="modal__input" required />
             </li>
           </ul>
-          <button type="submit" class="modal-btn">Підтримати</button>
+          <button type="submit" class="modal__btn">Підтримати</button>
         </form>
       </div>
     </div>
     <div data-photo class="backdrop is-hidden">
-      <div class="modal-people">
-        <div class="modal-container">
-          <img src="./images/teodora.webp" alt="Дівчина" class="modal-photo" />
-          <div class="modal-text-container">
-            <h2 class="modal-people-title">Теодора Левченко</h2>
-            <p class="mobal-text">
+      <div class="modal__people">
+        <div class="modal__container">
+          <img
+            src="./images/teodora.webp"
+            alt="Дівчина"
+            class="modal__photo"
+            width="422"
+            height="512"
+          />
+          <div class="modal__text-container">
+            <h2 class="modal__people-title">Теодора Левченко</h2>
+            <p class="modal__text">
               Добрий день!Мене звати Теодора Левченко.Мені 23 роки.І я є
               частиною чудової команди яка працює над фондом який допомагає
               ЗСУ.Раніше я працювала у сфері фінансів.Тому зараз займаюсь
               переказами на ЗСУ.
             </p>
-            <button data-info-close class="modal-people-close" type="button">
-              <svg class="modal-info-close" width="14" height="14">
+            <button data-info-close class="modal__people-close" type="button">
+              <svg class="modal__info-close" width="14" height="14">
                 <use href="./images/symbol-defs.svg#cross"></use>
               </svg>
             </button>
@@ -477,19 +483,29 @@
       </div>
     </div>
     <div data-photo-oleksiy class="backdrop is-hidden">
-      <div class="modal-people">
-        <div class="modal-container">
-          <img src="./images/oleksiy.webp" alt="oleksiy" class="modal-photo" />
-          <div class="modal-text-container">
-            <h2 class="modal-people-title">Олексій Дорошенко</h2>
-            <p class="mobal-text">
+      <div class="modal__people">
+        <div class="modal__container">
+          <img
+            src="./images/oleksiy.webp"
+            alt="oleksiy"
+            class="modal__photo"
+            width="422"
+            height="512"
+          />
+          <div class="modal__text-container">
+            <h2 class="modal__people-title">Олексій Дорошенко</h2>
+            <p class="modal__text">
               Добрий день!Мене звати Олексій Дорошенко.Мені 23 роки.І я є
               частиною чудової команди яка працює над фондом який допомагає
               ЗСУ.Раніше я працював у сфері фінансів.Тому зараз займаюсь
               переказами на ЗСУ.
             </p>
-            <button data-oleksiy-close class="modal-people-close" type="button">
-              <svg class="modal-info-close" width="14" height="14">
+            <button
+              data-oleksiy-close
+              class="modal__people-close"
+              type="button"
+            >
+              <svg class="modal__info-close" width="14" height="14">
                 <use href="./images/symbol-defs.svg#cross"></use>
               </svg>
             </button>
@@ -498,23 +514,25 @@
       </div>
     </div>
     <div data-photo-taras class="backdrop is-hidden">
-      <div class="modal-people">
-        <div class="modal-container">
+      <div class="modal__people">
+        <div class="modal__container">
           <img
             src="./images/taras-modal.webp"
             alt="Тарас"
-            class="modal-photo"
+            class="modal__photo"
+            width="422"
+            height="512"
           />
-          <div class="modal-text-container">
-            <h2 class="modal-people-title">Тарас Балінській</h2>
-            <p class="mobal-text">
+          <div class="modal__text-container">
+            <h2 class="modal__people-title">Тарас Балінській</h2>
+            <p class="modal__text">
               Добрий день!Мене звати Тарас Балінській.Мені 25 роки.І я є
               частиною чудової команди яка працює над фондом який допомагає
               ЗСУ.Раніше я працював у сфері фінансів.Тому зараз займаюсь
               переказами на ЗСУ.
             </p>
-            <button data-taras-close class="modal-people-close" type="button">
-              <svg class="modal-info-close" width="14" height="14">
+            <button data-taras-close class="modal__people-close" type="button">
+              <svg class="modal__info-close" width="14" height="14">
                 <use href="./images/symbol-defs.svg#cross"></use>
               </svg>
             </button>
@@ -523,23 +541,25 @@
       </div>
     </div>
     <div data-photo-jesica class="backdrop is-hidden">
-      <div class="modal-people">
-        <div class="modal-container">
+      <div class="modal__people">
+        <div class="modal__container">
           <img
             src="./images/jesica-modal.webp"
             alt="Джесіка"
-            class="modal-photo"
+            class="modal__photo"
+            width="422"
+            height="512"
           />
-          <div class="modal-text-container">
-            <h2 class="modal-people-title">Джесіка Паркер</h2>
-            <p class="mobal-text">
+          <div class="modal__text-container">
+            <h2 class="modal__people-title">Джесіка Паркер</h2>
+            <p class="modal__text">
               Добрий день!Мене звати Джесіка Паркер.Мені 25 роки.І я є частиною
               чудової команди яка працює над фондом який допомагає ЗСУ.Раніше я
               працювавала у сфері фінансів.Тому зараз займаюсь переказами на
               ЗСУ.
             </p>
-            <button data-jesica-close class="modal-people-close" type="button">
-              <svg class="modal-info-close" width="14" height="14">
+            <button data-jesica-close class="modal__people-close" type="button">
+              <svg class="modal__info-close" width="14" height="14">
                 <use href="./images/symbol-defs.svg#cross"></use>
               </svg>
             </button>

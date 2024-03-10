@@ -8,6 +8,7 @@
   background-size: cover;
 
   &__title {
+    @include text($weight: 500, $size: 48px);
     color: $text-color;
     text-align: center;
     font-size: 48px;
